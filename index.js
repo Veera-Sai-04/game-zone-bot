@@ -1,0 +1,50 @@
+require("dotenv").config();
+
+const { Client, GatewayIntentBits, Partials } = require("discord.js");
+
+const client = new Client({
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMembers,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent,
+  ],
+  partials: [Partials.Channel],
+});
+
+/**
+ * -------------------------
+ * Register Events
+ * -------------------------
+ */
+
+require("./events/guildMemberAdd")(client);
+require("./events/guildMemberRemove")(client);
+require("./events/messageCreate")(client);
+
+/**
+ * -------------------------
+ * Ready Event
+ * -------------------------
+ */
+
+client.once("clientReady", () => {
+  console.clear();
+
+  console.log("===========================================");
+  console.log("        GAME ZONE BOT ONLINE");
+  console.log("===========================================");
+  console.log(`Logged in as: ${client.user.tag}`);
+  console.log("Welcome System   : ✅ Ready");
+  console.log("Goodbye System   : ✅ Ready");
+  console.log("Role System      : ✅ Ready");
+  console.log("===========================================");
+});
+
+/**
+ * -------------------------
+ * Login
+ * -------------------------
+ */
+
+client.login(process.env.TOKEN);

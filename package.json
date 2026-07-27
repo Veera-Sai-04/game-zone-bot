@@ -1,0 +1,23 @@
+{
+  "name": "gamezone-welcome-bot",
+  "version": "2.0.0",
+  "description": "Professional Discord Welcome Bot for Game Zone",
+  "main": "index.js",
+  "author": "Veera Sai",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.70",
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
