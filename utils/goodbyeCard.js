@@ -1,126 +1,143 @@
 const { createCanvas, loadImage } = require("@napi-rs/canvas");
 
-const path = require("path");
+const {
+  WIDTH,
+  HEIGHT,
+  assets,
+  avatar,
+  logo,
+  title,
+  username,
+  member,
+} = require("./theme");
 
-const WIDTH = 1920;
-const HEIGHT = 720;
+async function drawAvatar(ctx, url, x, y, size) {
+  const img = await loadImage(url);
 
-const BACKGROUND = path.join(__dirname, "../assets/background.png");
-const FRAME = path.join(__dirname, "../assets/logo.png");
-
-function drawCircularImage(ctx, image, x, y, size) {
   ctx.save();
 
   ctx.beginPath();
-  ctx.arc(x + size / 2, y + size / 2, size / 2, 0, Math.PI * 2);
+  ctx.arc(x + size / 2, y + size / 2, size / 2 - 10, 0, Math.PI * 2);
 
   ctx.closePath();
   ctx.clip();
 
-  ctx.drawImage(image, x, y, size, size);
+  const scale = Math.max(size / img.width, size / img.height);
+
+  const w = img.width * scale;
+  const h = img.height * scale;
+
+  ctx.drawImage(img, x + (size - w) / 2, y + (size - h) / 2, w, h);
 
   ctx.restore();
-}
-
-function fitText(ctx, text, maxWidth, startSize) {
-  let size = startSize;
-
-  do {
-    ctx.font = `bold ${size}px Arial`;
-
-    if (ctx.measureText(text).width <= maxWidth) break;
-
-    size--;
-  } while (size > 20);
-
-  return size;
 }
 
 async function createGoodbyeCard(member) {
   const canvas = createCanvas(WIDTH, HEIGHT);
   const ctx = canvas.getContext("2d");
 
-  ctx.imageSmoothingEnabled = true;
-  ctx.imageSmoothingQuality = "high";
+  const bg = await loadImage(assets.background);
+  const overlay = await loadImage(assets.overlay);
+  const corners = await loadImage(assets.corners);
+  const frame = await loadImage(assets.frame);
+  const glow = await loadImage(assets.glow);
+  const logoImg = await loadImage(assets.logo);
 
-  const background = await loadImage(BACKGROUND);
-  const frame = await loadImage(FRAME);
+  // Background
+  ctx.drawImage(bg, 0, 0, WIDTH, HEIGHT);
 
-  const avatar = await loadImage(
-    member.displayAvatarURL({
+  // Red Glow
+  ctx.save();
+  ctx.globalAlpha = 0.85;
+  ctx.filter = "hue-rotate(180deg)";
+  ctx.drawImage(glow, avatar.x - 130, avatar.y - 120, 570, 570);
+  ctx.restore();
+
+  // Avatar
+  await drawAvatar(
+    ctx,
+    member.user.displayAvatarURL({
       extension: "png",
       size: 1024,
-      forceStatic: true,
     }),
+    avatar.x,
+    avatar.y,
+    avatar.size,
   );
 
-  ctx.drawImage(background, 0, 0, WIDTH, HEIGHT);
+  // Frame
+  ctx.drawImage(frame, avatar.x - 25, avatar.y - 25, 360, 360);
 
-  const frameWidth = 310;
-  const frameHeight = 310;
+  // Overlay
+  ctx.drawImage(overlay, 0, 0, WIDTH, HEIGHT);
 
-  const frameX = 1265;
-  const frameY = 180;
+  // Corners
+  ctx.globalAlpha = 0.8;
+  ctx.drawImage(corners, 0, 0, WIDTH, HEIGHT);
+  ctx.globalAlpha = 1;
 
-  drawCircularImage(ctx, avatar, frameX + 30, frameY + 30, 250);
+  // Logo
+  ctx.drawImage(logoImg, logo.x, logo.y, logo.size, logo.size);
 
-  ctx.drawImage(frame, frameX, frameY, frameWidth, frameHeight);
-
-  // GOODBYE TITLE
-
+  // Title
   ctx.save();
 
-  ctx.shadowColor = "#ff3b3b";
-  ctx.shadowBlur = 30;
+  ctx.font = "bold 120px Orbitron";
+  ctx.fillStyle = "#ff3b6b";
+  ctx.shadowColor = "#ff3b6b";
+  ctx.shadowBlur = 45;
 
-  ctx.fillStyle = "#ffffff";
-  ctx.textAlign = "center";
+  ctx.fillText("GOODBYE", title.x, title.y);
 
-  ctx.font = "bold 74px Arial";
+  ctx.font = "bold 58px Orbitron";
+  ctx.fillStyle = "#ff82d1";
+  ctx.shadowBlur = 25;
 
-  ctx.fillText("GOODBYE", frameX + frameWidth / 2, 110);
+  ctx.fillText("SEE YOU AGAIN", title.x, title.y + 95);
 
   ctx.restore();
 
-  // SERVER
+  // Username
+  ctx.font = "bold 76px Rajdhani";
+  ctx.fillStyle = "#FFFFFF";
 
-  ctx.fillStyle = "#ff5d5d";
-  ctx.font = "bold 34px Arial";
+  ctx.fillText(member.user.username, username.x, username.y);
 
-  ctx.fillText("GAME ZONE", frameX + frameWidth / 2, 155);
-
-  // USERNAME
-
-  const username = member.user.username;
-
-  const size = fitText(ctx, username, 500, 54);
-
-  ctx.fillStyle = "#ffffff";
-  ctx.font = `bold ${size}px Arial`;
-
-  ctx.fillText(username, frameX + frameWidth / 2, frameY + frameHeight + 70);
-
-  // MEMBER COUNT
-
-  ctx.fillStyle = "#d0d0d0";
-  ctx.font = "30px Arial";
+  // Member count
+  ctx.font = "44px Rajdhani";
+  ctx.fillStyle = "#CFCFCF";
 
   ctx.fillText(
-    `Member #${member.guild.memberCount}`,
-    frameX + frameWidth / 2,
-    frameY + frameHeight + 120,
+    `Members Remaining : ${member.guild.memberCount}`,
+    member.x,
+    member.y,
   );
 
-  // MESSAGE
+  // Bottom Panel
+  ctx.save();
 
-  ctx.fillStyle = "#999999";
-  ctx.font = "24px Arial";
+  ctx.globalAlpha = 0.15;
+  ctx.fillStyle = "#ff3b6b";
 
-  ctx.fillText(
-    "We'll miss you!",
-    frameX + frameWidth / 2,
-    frameY + frameHeight + 165,
-  );
+  ctx.fillRect(540, 660, 700, 150);
+
+  ctx.strokeStyle = "#ff3b6b";
+  ctx.lineWidth = 3;
+
+  ctx.strokeRect(540, 660, 700, 150);
+
+  ctx.restore();
+
+  // Goodbye Message
+  ctx.font = "44px Rajdhani";
+  ctx.fillStyle = "#FFFFFF";
+
+  ctx.fillText("Thanks for being part of GAME ZONE!", 580, 730);
+
+  ctx.font = "34px Rajdhani";
+  ctx.fillStyle = "#CFCFCF";
+
+  ctx.fillText("We hope to see you again soon.", 580, 780);
 
   return canvas.encode("png");
 }

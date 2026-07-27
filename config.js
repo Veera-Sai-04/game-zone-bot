@@ -19,7 +19,12 @@ module.exports = {
   // DEFAULT ROLE
   // ============================================
 
-  citizenRole: "1512683496789905649",
+  autoRole: "1512683496789905649",
+
+  //===========================================
+  // Invite Link
+  //===========================================
+  inviteURL: "https://discord.gg/7sDQgjSGTW",
 
   // ============================================
   // CARD SETTINGS
@@ -27,19 +32,24 @@ module.exports = {
 
   card: {
     width: 1920,
-    height: 720,
+    height: 1080,
 
     background: "./assets/background.png",
-    avatarFrame: "./assets/logo.png",
+    overlay: "./assets/overlay.png",
+    corners: "./assets/corners.png",
+    frame: "./assets/frame.png",
+    glow: "./assets/glow.png",
+    logo: "./assets/logo.png",
 
-    avatarSize: 250,
+    avatarSize: 310,
 
-    primaryColor: "#ffffff",
-    secondaryColor: "#cfcfcf",
+    primaryColor: "#00EAFF",
+    secondaryColor: "#FF2BD6",
+    textColor: "#FFFFFF",
+    subTextColor: "#CFCFCF",
 
     autoDeleteTime: 60000,
   },
-
   // ============================================
   // GAME ROLE ALIASES
   // Left = User types
@@ -83,4 +93,11 @@ module.exports = {
     // Marvel Rivals
     "marvel rivals": "marvel rivals",
   },
+  // ============================================
+  // BUTTON LINKS
+  // ============================================
+
+  rulesURL: "https://discord.com/channels/YOUR_SERVER_ID/1512692742155931738",
+
+  rolesURL: "https://discord.com/channels/YOUR_SERVER_ID/1512693324904140800",
 };

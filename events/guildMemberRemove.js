@@ -1,40 +1,76 @@
-const { AttachmentBuilder } = require("discord.js");
+const {
+  AttachmentBuilder,
+  EmbedBuilder,
+  ActionRowBuilder,
+  ButtonBuilder,
+  ButtonStyle,
+} = require("discord.js");
 
 const createGoodbyeCard = require("../utils/goodbyeCard");
 const config = require("../config");
 
-module.exports = (client) => {
-  client.on("guildMemberRemove", async (member) => {
+module.exports = {
+  name: "guildMemberRemove",
+
+  async execute(member) {
     try {
-      /**
-       * Goodbye Channel
-       */
-
-      const channel = member.guild.channels.cache.get(config.goodbyeChannel);
-
-      if (!channel) return;
-
-      /**
-       * Create Goodbye Card
-       */
-
       const image = await createGoodbyeCard(member);
 
       const attachment = new AttachmentBuilder(image, {
         name: "goodbye.png",
       });
 
-      /**
-       * Send Goodbye Card
-       */
+      const embed = new EmbedBuilder()
+
+        .setColor("#ff3b6b")
+
+        .setTitle("👋 A Member Left GAME ZONE")
+
+        .setDescription(
+          `**${member.user.tag}** has left the server.
+
+We hope you enjoyed your stay.
+
+❤️ You're always welcome back.
+
+👥 Members Remaining: **${member.guild.memberCount}**`,
+        )
+
+        .setImage("attachment://goodbye.png")
+
+        .setThumbnail(member.user.displayAvatarURL())
+
+        .setFooter({
+          text: config.serverName,
+        })
+
+        .setTimestamp();
+
+      const row = new ActionRowBuilder().addComponents(
+        new ButtonBuilder()
+
+          .setLabel("Join Again")
+
+          .setEmoji("🎮")
+
+          .setStyle(ButtonStyle.Link)
+
+          .setURL(config.inviteURL),
+      );
+
+      const channel = member.guild.channels.cache.get(config.goodbyeChannel);
+
+      if (!channel) return;
 
       await channel.send({
-        content: `👋 **${member.user.username}** has left **${config.serverName}**.`,
+        embeds: [embed],
 
         files: [attachment],
+
+        components: [row],
       });
     } catch (err) {
-      console.error("Goodbye Event Error:", err);
+      console.error(err);
     }
-  });
+  },
 };

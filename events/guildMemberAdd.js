@@ -1,38 +1,29 @@
-const { AttachmentBuilder } = require("discord.js");
+const {
+  EmbedBuilder,
+  AttachmentBuilder,
+  ActionRowBuilder,
+  ButtonBuilder,
+  ButtonStyle,
+} = require("discord.js");
 
 const createWelcomeCard = require("../utils/welcomeCard");
+
 const config = require("../config");
 
-module.exports = (client) => {
-  client.on("guildMemberAdd", async (member) => {
+module.exports = {
+  name: "guildMemberAdd",
+
+  async execute(member) {
     try {
-      /**
-       * -----------------------------
-       * Give Citizen Role
-       * -----------------------------
-       */
+      // Auto Role
 
-      const citizenRole = member.guild.roles.cache.get(config.citizenRole);
+      const role = member.guild.roles.cache.get(config.autoRole);
 
-      if (citizenRole) {
-        await member.roles.add(citizenRole).catch(() => {});
+      if (role) {
+        await member.roles.add(role).catch(() => {});
       }
 
-      /**
-       * -----------------------------
-       * Welcome Channel
-       * -----------------------------
-       */
-
-      const channel = member.guild.channels.cache.get(config.welcomeChannel);
-
-      if (!channel) return;
-
-      /**
-       * -----------------------------
-       * Create Welcome Card
-       * -----------------------------
-       */
+      // Welcome Image
 
       const image = await createWelcomeCard(member);
 
@@ -40,26 +31,79 @@ module.exports = (client) => {
         name: "welcome.png",
       });
 
-      /**
-       * -----------------------------
-       * Send Welcome Message
-       * -----------------------------
-       */
+      // Embed
 
-      const message = await channel.send({
-        content: `🎉 Welcome ${member} to **${config.serverName}**!`,
+      const embed = new EmbedBuilder()
 
-        files: [attachment],
-      });
+        .setColor("#00eaff")
 
-      /**
-       * -----------------------------
-       * Delete Welcome Ping
-       * (Optional)
-       * -----------------------------
-       */
+        .setTitle("🎉 Welcome to GAME ZONE")
+
+        .setDescription(
+          `Welcome ${member}!
+
+We hope you enjoy your stay.
+
+> 📜 Read the rules
+
+> 🎮 Pick your gaming roles
+
+> 💬 Join the community
+
+Member Count: **${member.guild.memberCount}**`,
+        )
+
+        .setImage("attachment://welcome.png")
+
+        .setThumbnail(member.user.displayAvatarURL())
+
+        .setFooter({
+          text: "GAME ZONE",
+        })
+
+        .setTimestamp();
+
+      // Buttons
+
+      const row = new ActionRowBuilder().addComponents(
+        new ButtonBuilder()
+
+          .setLabel("Rules")
+
+          .setEmoji("📜")
+
+          .setStyle(ButtonStyle.Link)
+
+          .setURL(config.rulesURL),
+
+        new ButtonBuilder()
+
+          .setLabel("Roles")
+
+          .setEmoji("🎮")
+
+          .setStyle(ButtonStyle.Link)
+
+          .setURL(config.rolesURL),
+      );
+
+      // Send
+
+      const channel = member.guild.channels.cache.get(config.welcomeChannel);
+
+      if (channel) {
+        await channel.send({
+          content: `Welcome ${member}! 👋`,
+
+          embeds: [embed],
+
+          files: [attachment],
+
+          components: [row],
+        });
+      }
     } catch (err) {
-      console.error("Welcome Event Error:", err);
+      console.error(err);
     }
-  });
+  },
 };
