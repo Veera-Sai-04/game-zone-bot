@@ -6,7 +6,7 @@ const {
   ButtonStyle,
 } = require("discord.js");
 
-const createGoodbyeCard = require("../utils/goodbyeCard");
+const { createGoodbyeCard } = require("../utils/goodbyeCard");
 const config = require("../config");
 
 module.exports = {

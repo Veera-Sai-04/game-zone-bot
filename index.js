@@ -18,9 +18,11 @@ const client = new Client({
  * -------------------------
  */
 
-require("./events/guildMemberAdd")(client);
-require("./events/guildMemberRemove")(client);
-require("./events/messageCreate")(client);
+const guildMemberAdd = require("./events/guildMemberAdd");
+const guildMemberRemove = require("./events/guildMemberRemove");
+
+client.on("guildMemberAdd", guildMemberAdd.execute);
+client.on("guildMemberRemove", guildMemberRemove.execute);
 
 /**
  * -------------------------

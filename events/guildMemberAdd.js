@@ -6,7 +6,7 @@ const {
   ButtonStyle,
 } = require("discord.js");
 
-const createWelcomeCard = require("../utils/welcomeCard");
+const { createWelcomeCard } = require("../utils/welcomeCard");
 
 const config = require("../config");
 

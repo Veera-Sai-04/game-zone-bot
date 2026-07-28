@@ -1,33 +1,44 @@
 module.exports = {
   // ============================================
-  // SERVER
+  // DISCORD BOT
   // ============================================
+
+  token: process.env.DISCORD_TOKEN,
+
+  clientId: "1530833146650693762",
+
+  guildId: "1512670028850528386",
 
   serverName: "GAME ZONE",
 
   // ============================================
-  // CHANNEL IDS
+  // CHANNELS
   // ============================================
 
   welcomeChannel: "1512692689517281412",
+
   goodbyeChannel: "1531283179699306547",
 
-  rulesChannel: "1512692742155931738",
-  rolesChannel: "1512693324904140800",
-
   // ============================================
-  // DEFAULT ROLE
+  // AUTO ROLE
   // ============================================
 
   autoRole: "1512683496789905649",
 
-  //===========================================
-  // Invite Link
-  //===========================================
+  // ============================================
+  // IMPORTANT LINKS
+  // ============================================
+
   inviteURL: "https://discord.gg/7sDQgjSGTW",
 
+  rulesURL:
+    "https://discord.com/channels/1512670028850528386/1512692742155931738",
+
+  rolesURL:
+    "https://discord.com/channels/1512670028850528386/1512693324904140800",
+
   // ============================================
-  // CARD SETTINGS
+  // WELCOME / GOODBYE CARD
   // ============================================
 
   card: {
@@ -35,25 +46,22 @@ module.exports = {
     height: 1080,
 
     background: "./assets/background.png",
-    overlay: "./assets/overlay.png",
-    corners: "./assets/corners.png",
-    frame: "./assets/frame.png",
-    glow: "./assets/glow.png",
     logo: "./assets/logo.png",
+    hexagon: "./assets/hexagon.png",
 
-    avatarSize: 310,
+    avatarSize: 230,
 
     primaryColor: "#00EAFF",
-    secondaryColor: "#FF2BD6",
+    secondaryColor: "#FF2D75",
+
     textColor: "#FFFFFF",
     subTextColor: "#CFCFCF",
 
     autoDeleteTime: 60000,
   },
+
   // ============================================
   // GAME ROLE ALIASES
-  // Left = User types
-  // Right = Discord Role Name
   // ============================================
 
   aliases: {
@@ -93,11 +101,4 @@ module.exports = {
     // Marvel Rivals
     "marvel rivals": "marvel rivals",
   },
-  // ============================================
-  // BUTTON LINKS
-  // ============================================
-
-  rulesURL: "https://discord.com/channels/YOUR_SERVER_ID/1512692742155931738",
-
-  rolesURL: "https://discord.com/channels/YOUR_SERVER_ID/1512693324904140800",
 };
