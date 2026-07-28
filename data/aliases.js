@@ -1,11 +1,10 @@
-module.exports = {  
-
-// ==========================
+module.exports = {
+  // ==========================
   // PUBG Mobile / BGMI
   // ==========================
-  "pubg mobile": "pubg mobile";
+  "pubg mobile": "pubg mobile",
   pubgm: "pubg mobile",
-  "pubgm": "pubg mobile",
+  pubgm: "pubg mobile",
   bgmi: "bgmi",
   "battlegrounds mobile india": "bgmi",
   "pubg india": "bgmi",
@@ -261,8 +260,8 @@ module.exports = {
   // ==========================
   ros: "rules of survival",
   "rules of survival": "rules of survival",
-    
-    // ==========================
+
+  // ==========================
   // Once Human
   // ==========================
   oncehuman: "once human",
@@ -322,7 +321,7 @@ module.exports = {
   // Smalland
   // ==========================
   smalland: "smalland survive the wilds",
-  "smalland": "smalland survive the wilds",
+  smalland: "smalland survive the wilds",
   "smalland survive the wilds": "smalland survive the wilds",
 
   // ==========================
@@ -393,7 +392,7 @@ module.exports = {
   // HumanitZ
   // ==========================
   humanitz: "humanitz",
-  "humanitz": "humanitz",
+  humanitz: "humanitz",
 
   // ==========================
   // SCUM
@@ -617,8 +616,8 @@ module.exports = {
   // Lego Worlds
   // ==========================
   "lego worlds": "lego worlds",
-    
-      // ==========================
+
+  // ==========================
   // Mobile Legends
   // ==========================
   ml: "mobile legends bang bang",
@@ -668,7 +667,7 @@ module.exports = {
   // Smite
   // ==========================
   smite: "smite",
-  "smite": "smite",
+  smite: "smite",
 
   // ==========================
   // Smite 2
@@ -818,7 +817,7 @@ module.exports = {
   civ5: "civilization v",
   civ6: "civilization vi",
   civ7: "civilization vii",
-  "civilization": "civilization vi",
+  civilization: "civilization vi",
   "civilization v": "civilization v",
   "civilization vi": "civilization vi",
   "civilization vii": "civilization vii",
@@ -935,7 +934,7 @@ module.exports = {
   // Stellaris
   // ==========================
   stellaris: "stellaris",
-      // ==========================
+  // ==========================
   // Need for Speed
   // ==========================
   nfs: "need for speed",
@@ -1018,7 +1017,7 @@ module.exports = {
   // BeamNG
   // ==========================
   beamng: "beamng.drive",
-  "beamng": "beamng.drive",
+  beamng: "beamng.drive",
   "beamng drive": "beamng.drive",
 
   // ==========================
@@ -1191,7 +1190,7 @@ module.exports = {
   "pico park": "pico park",
   "moving out": "moving out",
   overcooked: "overcooked 2",
-  "overcooked": "overcooked 2",
+  overcooked: "overcooked 2",
   "overcooked 2": "overcooked 2",
 
   // ==========================
@@ -1256,7 +1255,7 @@ module.exports = {
   // ==========================
   expeditions: "expeditions a mudrunner game",
   "expeditions a mudrunner game": "expeditions a mudrunner game",
-      // ==========================
+  // ==========================
   // Mobile Multiplayer
   // ==========================
   codm: "call of duty mobile",
@@ -1520,4 +1519,4 @@ module.exports = {
   ffxivonline: "final fantasy xiv",
 
   elderscrollsonline: "elder scrolls online",
-  };
+};
