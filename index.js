@@ -1,6 +1,7 @@
 require("dotenv").config();
 
 const { Client, GatewayIntentBits, Partials } = require("discord.js");
+const LogManager = require("./utils/logManager");
 
 const client = new Client({
   intents: [
@@ -9,8 +10,11 @@ const client = new Client({
     GatewayIntentBits.GuildMessages,
     GatewayIntentBits.MessageContent,
   ],
+
   partials: [Partials.Channel],
 });
+
+client.logger = new LogManager(client);
 
 /**
  * -------------------------
@@ -20,10 +24,14 @@ const client = new Client({
 
 const guildMemberAdd = require("./events/guildMemberAdd");
 const guildMemberRemove = require("./events/guildMemberRemove");
+const guildMemberUpdate = require("./events/guildMemberUpdate");
 
 client.on("guildMemberAdd", guildMemberAdd.execute);
 client.on("guildMemberRemove", guildMemberRemove.execute);
+client.on("guildMemberUpdate", guildMemberUpdate.execute);
 
+// Register message event
+require("./events/messageCreate")(client);
 /**
  * -------------------------
  * Ready Event

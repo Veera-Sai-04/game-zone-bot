@@ -6,7 +6,7 @@ const {
   ButtonStyle,
 } = require("discord.js");
 
-const { createWelcomeCard } = require("../utils/welcomeCard");
+const createWelcomeCard = require("../utils/welcomeCard");
 
 const config = require("../config");
 
@@ -42,15 +42,27 @@ module.exports = {
         .setDescription(
           `Welcome ${member}!
 
-We hope you enjoy your stay.
+🎮 **Welcome to ${config.serverName}!**
 
-> 📜 Read the rules
+We're happy to have you in our community.
 
-> 🎮 Pick your gaming roles
+━━━━━━━━━━━━━━━━━━━━━━
+
+📜 **Read the Rules**
+<#${config.rulesChannel}>
+
+🎭 **Choose Your Game Roles**
+<#${config.rolesChannel}>
 
 > 💬 Join the community
 
-Member Count: **${member.guild.memberCount}**`,
+👥 **Member #${member.guild.memberCount}**
+
+✨ Your **Citizen** role has been assigned automatically.
+
+Enjoy your stay and have fun!
+
+━━━━━━━━━━━━━━━━━━━━━━`,
         )
 
         .setImage("attachment://welcome.png")
@@ -102,8 +114,10 @@ Member Count: **${member.guild.memberCount}**`,
           components: [row],
         });
       }
+      // Log Member Join
+      await member.client.logger.logMemberJoin(member);
     } catch (err) {
-      console.error(err);
+      console.error("guildMemberAdd failed:", err);
     }
   },
 };

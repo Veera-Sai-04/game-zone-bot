@@ -3,6 +3,8 @@ const config = require("../config");
 
 module.exports = (client) => {
   client.on("messageCreate", async (message) => {
+    console.log("Message received:", message.content);
+
     // Ignore bots
     if (message.author.bot) return;
 
@@ -29,9 +31,11 @@ module.exports = (client) => {
 
       setTimeout(async () => {
         try {
-          await message.delete();
-          await reply.delete();
-        } catch {}
+          if (message.deletable) await message.delete();
+          if (reply.deletable) await reply.delete();
+        } catch (err) {
+          console.error("Auto delete failed:", err);
+        }
       }, config.card.autoDeleteTime);
 
       return;
@@ -41,9 +45,14 @@ module.exports = (client) => {
     // Find Role
     // --------------------------
 
-    const role = findGameRole(message.guild, gameName);
+    const role = await findGameRole(message.guild, gameName, message.member);
 
     if (!role) {
+      await client.logger.logUnknownGame({
+        member: message.member,
+        gameEntered: gameName,
+      });
+
       const reply = await message.reply({
         content:
           "❌ Unknown game name.\n\nThis message will be deleted automatically in 1 minute.",
@@ -51,9 +60,11 @@ module.exports = (client) => {
 
       setTimeout(async () => {
         try {
-          await message.delete();
-          await reply.delete();
-        } catch {}
+          if (message.deletable) await message.delete();
+          if (reply.deletable) await reply.delete();
+        } catch (err) {
+          console.error("Auto delete failed:", err);
+        }
       }, config.card.autoDeleteTime);
 
       return;
@@ -70,9 +81,11 @@ module.exports = (client) => {
 
       setTimeout(async () => {
         try {
-          await message.delete();
-          await reply.delete();
-        } catch {}
+          if (message.deletable) await message.delete();
+          if (reply.deletable) await reply.delete();
+        } catch (err) {
+          console.error("Auto delete failed:", err);
+        }
       }, config.card.autoDeleteTime);
 
       return;
@@ -85,15 +98,24 @@ module.exports = (client) => {
     try {
       await message.member.roles.add(role);
 
+      await client.logger.logRoleAssigned({
+        member: message.member,
+        gameEntered: gameName,
+        resolvedAlias: role.name,
+        role,
+      });
+
       const reply = await message.reply({
         content: `✅ Successfully assigned **${role.name}** role.\n\nThis message will be deleted automatically in 1 minute.`,
       });
 
       setTimeout(async () => {
         try {
-          await message.delete();
-          await reply.delete();
-        } catch {}
+          if (message.deletable) await message.delete();
+          if (reply.deletable) await reply.delete();
+        } catch (err) {
+          console.error("Auto delete failed:", err);
+        }
       }, config.card.autoDeleteTime);
     } catch (err) {
       console.error(err);
@@ -105,9 +127,11 @@ module.exports = (client) => {
 
       setTimeout(async () => {
         try {
-          await message.delete();
-          await reply.delete();
-        } catch {}
+          if (message.deletable) await message.delete();
+          if (reply.deletable) await reply.delete();
+        } catch (err) {
+          console.error("Auto delete failed:", err);
+        }
       }, config.card.autoDeleteTime);
     }
   });
