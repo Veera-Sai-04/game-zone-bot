@@ -1,826 +1,34 @@
 module.exports = {
   // ==========================
-  // PUBG Mobile / BGMI
-  // ==========================
-  "pubg mobile": "pubg mobile",
-  pubgm: "pubg mobile",
-  pubgm: "pubg mobile",
-  bgmi: "bgmi",
-  "battlegrounds mobile india": "bgmi",
-  "pubg india": "bgmi",
-
-  // ==========================
-  // Free Fire
-  // ==========================
-  ff: "free fire",
-  "free fire": "free fire",
-  "garena free fire": "free fire",
-  ffmax: "free fire max",
-  "free fire max": "free fire max",
-  "garena free fire max": "free fire max",
-
-  // ==========================
-  // Blood Strike
-  // ==========================
-  "blood strike": "blood strike",
-  bloodstrike: "blood strike",
-  bs: "blood strike",
-
-  // ==========================
-  // Arena Breakout
-  // ==========================
-  "arena breakout": "arena breakout",
-  arenabreakout: "arena breakout",
-  "arena breakout infinite": "arena breakout infinite",
-  abi: "arena breakout infinite",
-
-  // ==========================
-  // Delta Force
-  // ==========================
-  delta: "delta force",
-  "delta force": "delta force",
-  "delta force hawk ops": "delta force",
-
-  // ==========================
-  // Combat Master
-  // ==========================
-  "combat master": "combat master",
-  combatmaster: "combat master",
-
-  // ==========================
-  // FragPunk
-  // ==========================
-  fragpunk: "fragpunk",
-  "frag punk": "fragpunk",
-
-  // ==========================
-  // Splitgate
-  // ==========================
-  splitgate: "splitgate",
-  "split gate": "splitgate",
-  "splitgate 2": "splitgate 2",
-
-  // ==========================
-  // Rogue Company
-  // ==========================
-  rogue: "rogue company",
-  "rogue company": "rogue company",
-
-  // ==========================
-  // Paladins
-  // ==========================
-  paladins: "paladins",
-
-  // ==========================
-  // Deadlock
-  // ==========================
-  deadlock: "deadlock",
-
-  // ==========================
-  // Smite
-  // ==========================
-  smite: "smite",
-  "smite 2": "smite 2",
-
-  // ==========================
-  // Halo
-  // ==========================
-  halo: "halo infinite",
-  "halo infinite": "halo infinite",
-  mcc: "halo the master chief collection",
-  "halo mcc": "halo the master chief collection",
-  "halo the master chief collection": "halo the master chief collection",
-
-  // ==========================
-  // Insurgency
-  // ==========================
-  insurgency: "insurgency sandstorm",
-  sandstorm: "insurgency sandstorm",
-  "insurgency sandstorm": "insurgency sandstorm",
-
-  // ==========================
-  // Ground Branch
-  // ==========================
-  "ground branch": "ground branch",
-  groundbranch: "ground branch",
-
-  // ==========================
-  // Six Days in Fallujah
-  // ==========================
-  "six days in fallujah": "six days in fallujah",
-
-  // ==========================
-  // World War 3
-  // ==========================
-  ww3: "world war 3",
-  "world war 3": "world war 3",
-
-  // ==========================
-  // Battle Teams 2
-  // ==========================
-  "battle teams 2": "battle teams 2",
-  bt2: "battle teams 2",
-
-  // ==========================
-  // Black Squad
-  // ==========================
-  "black squad": "black squad",
-  blacksquad: "black squad",
-
-  // ==========================
-  // Ironsight
-  // ==========================
-  ironsight: "ironsight",
-
-  // ==========================
-  // CrossFire
-  // ==========================
-  crossfire: "crossfire",
-  "cross fire": "crossfire",
-  cfx: "crossfire x",
-  "crossfire x": "crossfire x",
-
-  // ==========================
-  // Point Blank
-  // ==========================
-  "point blank": "point blank",
-  pointblank: "point blank",
-
-  // ==========================
-  // Sudden Attack
-  // ==========================
-  "sudden attack": "sudden attack",
-
-  // ==========================
-  // Alliance of Valiant Arms
-  // ==========================
-  ava: "alliance of valiant arms",
-  "alliance of valiant arms": "alliance of valiant arms",
-
-  // ==========================
-  // Warface
-  // ==========================
-  warface: "warface",
-
-  // ==========================
-  // War Thunder
-  // ==========================
-  wt: "war thunder",
-  "war thunder": "war thunder",
-
-  // ==========================
-  // Enlisted
-  // ==========================
-  enlisted: "enlisted",
-
-  // ==========================
-  // Hunt: Showdown
-  // ==========================
-  hunt: "hunt showdown 1896",
-  showdown: "hunt showdown 1896",
-  "hunt showdown": "hunt showdown 1896",
-  "hunt showdown 1896": "hunt showdown 1896",
-
-  // ==========================
-  // Escape From Tarkov Arena
-  // ==========================
-  "tarkov arena": "escape from tarkov arena",
-  "escape from tarkov arena": "escape from tarkov arena",
-
-  // ==========================
-  // Gray Zone Warfare
-  // ==========================
-  gzw: "gray zone warfare",
-  "gray zone warfare": "gray zone warfare",
-
-  // ==========================
-  // Marauders
-  // ==========================
-  marauders: "marauders",
-
-  // ==========================
-  // Dark and Darker
-  // ==========================
-  "dark and darker": "dark and darker",
-  darkdarker: "dark and darker",
-
-  // ==========================
-  // The First Descendant
-  // ==========================
-  tfd: "the first descendant",
-  "the first descendant": "the first descendant",
-
-  // ==========================
-  // Spectre Divide
-  // ==========================
-  spectre: "spectre divide",
-  "spectre divide": "spectre divide",
-
-  // ==========================
-  // Off The Grid
-  // ==========================
-  otg: "off the grid",
-  "off the grid": "off the grid",
-
-  // ==========================
-  // Super People
-  // ==========================
-  "super people": "super people",
-
-  // ==========================
-  // Naraka
-  // ==========================
-  naraka: "naraka bladepoint",
-  nb: "naraka bladepoint",
-  "naraka bladepoint": "naraka bladepoint",
-
-  // ==========================
-  // Spellbreak
-  // ==========================
-  spellbreak: "spellbreak",
-
-  // ==========================
-  // Farlight 84
-  // ==========================
-  farlight: "farlight 84",
-  "farlight 84": "farlight 84",
-
-  // ==========================
-  // Creative Destruction
-  // ==========================
-  "creative destruction": "creative destruction",
-
-  // ==========================
-  // Knives Out
-  // ==========================
-  "knives out": "knives out",
-
-  // ==========================
-  // Rules of Survival
-  // ==========================
-  ros: "rules of survival",
-  "rules of survival": "rules of survival",
-
-  // ==========================
-  // Once Human
-  // ==========================
-  oncehuman: "once human",
-  "once human": "once human",
-
-  // ==========================
-  // DayZ
-  // ==========================
-  dayz: "dayz",
-
-  // ==========================
-  // Project Zomboid
-  // ==========================
-  pz: "project zomboid",
-  "project zomboid": "project zomboid",
-
-  // ==========================
-  // Sons of the Forest
-  // ==========================
-  sotf: "sons of the forest",
-  "sons of the forest": "sons of the forest",
-
-  // ==========================
-  // The Forest
-  // ==========================
-  forest: "the forest",
-  "the forest": "the forest",
-
-  // ==========================
-  // Valheim
-  // ==========================
-  valheim: "valheim",
-
-  // ==========================
-  // V Rising
-  // ==========================
-  vrising: "v rising",
-  "v rising": "v rising",
-
-  // ==========================
-  // Conan Exiles
-  // ==========================
-  conan: "conan exiles",
-  "conan exiles": "conan exiles",
-
-  // ==========================
-  // Soulmask
-  // ==========================
-  soulmask: "soulmask",
-
-  // ==========================
-  // Icarus
-  // ==========================
-  icarus: "icarus",
-
-  // ==========================
-  // Smalland
-  // ==========================
-  smalland: "smalland survive the wilds",
-  smalland: "smalland survive the wilds",
-  "smalland survive the wilds": "smalland survive the wilds",
-
-  // ==========================
-  // Grounded
-  // ==========================
-  grounded: "grounded",
-
-  // ==========================
-  // Core Keeper
-  // ==========================
-  corekeeper: "core keeper",
-  "core keeper": "core keeper",
-
-  // ==========================
-  // Terraria
-  // ==========================
-  terraria: "terraria",
-
-  // ==========================
-  // Starbound
-  // ==========================
-  starbound: "starbound",
-
-  // ==========================
-  // No Man's Sky
-  // ==========================
-  nms: "no man's sky",
-  "no man's sky": "no man's sky",
-
-  // ==========================
-  // Space Engineers
-  // ==========================
-  "space engineers": "space engineers",
-
-  // ==========================
-  // Astroneer
-  // ==========================
-  astroneer: "astroneer",
-
-  // ==========================
-  // Satisfactory
-  // ==========================
-  satisfactory: "satisfactory",
-
-  // ==========================
-  // Factorio
-  // ==========================
-  factorio: "factorio",
-
-  // ==========================
-  // Dyson Sphere Program
-  // ==========================
-  dsp: "dyson sphere program",
-  "dyson sphere program": "dyson sphere program",
-
-  // ==========================
-  // Eco
-  // ==========================
-  eco: "eco",
-
-  // ==========================
-  // Scrap Mechanic
-  // ==========================
-  scrapmechanic: "scrap mechanic",
-  "scrap mechanic": "scrap mechanic",
-
-  // ==========================
-  // HumanitZ
-  // ==========================
-  humanitz: "humanitz",
-  humanitz: "humanitz",
-
-  // ==========================
-  // SCUM
-  // ==========================
-  scum: "scum",
-
-  // ==========================
-  // Myth of Empires
-  // ==========================
-  moe: "myth of empires",
-  "myth of empires": "myth of empires",
-
-  // ==========================
-  // The Front
-  // ==========================
-  "the front": "the front",
-
-  // ==========================
-  // Deadside
-  // ==========================
-  deadside: "deadside",
-
-  // ==========================
-  // Nightingale
-  // ==========================
-  nightingale: "nightingale",
-
-  // ==========================
-  // Enshrouded
-  // ==========================
-  enshrouded: "enshrouded",
-
-  // ==========================
   // Abiotic Factor
   // ==========================
   abiotic: "abiotic factor",
   "abiotic factor": "abiotic factor",
+  af: "abiotic factor",
+  abioticfactor: "abiotic factor",
+  "abiotic-factor": "abiotic factor",
+  "abiotic game": "abiotic factor",
+  "abiotic coop": "abiotic factor",
+  "abiotic co-op": "abiotic factor",
 
   // ==========================
-  // Forever Skies
-  // ==========================
-  "forever skies": "forever skies",
-
-  // ==========================
-  // Subnautica
-  // ==========================
-  subnautica: "subnautica",
-  "subnautica below zero": "subnautica below zero",
-
-  // ==========================
-  // Raft
-  // ==========================
-  raft: "raft",
-
-  // ==========================
-  // Stardew Valley
-  // ==========================
-  stardew: "stardew valley",
-  "stardew valley": "stardew valley",
-
-  // ==========================
-  // Palia
-  // ==========================
-  palia: "palia",
-
-  // ==========================
-  // New World
-  // ==========================
-  nw: "new world",
-  "new world": "new world",
-
-  // ==========================
-  // Lost Ark
-  // ==========================
-  lostark: "lost ark",
-  "lost ark": "lost ark",
-
-  // ==========================
-  // Throne and Liberty
-  // ==========================
-  throne: "throne and liberty",
-  "throne and liberty": "throne and liberty",
-
-  // ==========================
-  // Final Fantasy XIV
-  // ==========================
-  ffxiv: "final fantasy xiv",
-  ff14: "final fantasy xiv",
-  "final fantasy xiv": "final fantasy xiv",
-
-  // ==========================
-  // Elder Scrolls Online
-  // ==========================
-  eso: "elder scrolls online",
-  "elder scrolls online": "elder scrolls online",
-
-  // ==========================
-  // RuneScape
-  // ==========================
-  rs: "runescape",
-  runescape: "runescape",
-
-  // ==========================
-  // Old School RuneScape
-  // ==========================
-  osrs: "old school runescape",
-  "old school runescape": "old school runescape",
-
-  // ==========================
-  // Albion Online
-  // ==========================
-  albion: "albion online",
-  "albion online": "albion online",
-
-  // ==========================
-  // EVE Online
-  // ==========================
-  eve: "eve online",
-  "eve online": "eve online",
-
-  // ==========================
-  // Star Citizen
-  // ==========================
-  sc: "star citizen",
-  "star citizen": "star citizen",
-
-  // ==========================
-  // Pax Dei
-  // ==========================
-  paxdei: "pax dei",
-  "pax dei": "pax dei",
-
-  // ==========================
-  // Dune Awakening
-  // ==========================
-  dune: "dune awakening",
-  "dune awakening": "dune awakening",
-
-  // ==========================
-  // Tower of Fantasy
-  // ==========================
-  tof: "tower of fantasy",
-  "tower of fantasy": "tower of fantasy",
-
-  // ==========================
-  // Genshin Impact
-  // ==========================
-  genshin: "genshin impact",
-  "genshin impact": "genshin impact",
-
-  // ==========================
-  // Honkai Star Rail
-  // ==========================
-  hsr: "honkai star rail",
-  "honkai star rail": "honkai star rail",
-
-  // ==========================
-  // Zenless Zone Zero
-  // ==========================
-  zzz: "zenless zone zero",
-  "zenless zone zero": "zenless zone zero",
-
-  // ==========================
-  // Wuthering Waves
-  // ==========================
-  wuwa: "wuthering waves",
-  "wuthering waves": "wuthering waves",
-
-  // ==========================
-  // Blue Protocol
-  // ==========================
-  blueprotocol: "blue protocol",
-  "blue protocol": "blue protocol",
-
-  // ==========================
-  // Temtem
-  // ==========================
-  temtem: "temtem",
-
-  // ==========================
-  // Sea of Thieves
-  // ==========================
-  seaofthieves: "sea of thieves",
-  "sea of thieves": "sea of thieves",
-
-  // ==========================
-  // Helldivers 2
-  // ==========================
-  hd2: "helldivers 2",
-  helldivers: "helldivers 2",
-  "helldivers 2": "helldivers 2",
-
-  // ==========================
-  // Content Warning
-  // ==========================
-  "content warning": "content warning",
-
-  // ==========================
-  // Party Animals
-  // ==========================
-  "party animals": "party animals",
-
-  // ==========================
-  // Goose Goose Duck
-  // ==========================
-  ggd: "goose goose duck",
-  "goose goose duck": "goose goose duck",
-
-  // ==========================
-  // Rec Room
-  // ==========================
-  recroom: "rec room",
-  "rec room": "rec room",
-
-  // ==========================
-  // LEGO Fortnite
-  // ==========================
-  "lego fortnite": "lego fortnite",
-
-  // ==========================
-  // Lego Worlds
-  // ==========================
-  "lego worlds": "lego worlds",
-
-  // ==========================
-  // Mobile Legends
-  // ==========================
-  ml: "mobile legends bang bang",
-  mlbb: "mobile legends bang bang",
-  "mobile legends": "mobile legends bang bang",
-  "mobile legends bang bang": "mobile legends bang bang",
-
-  // ==========================
-  // Honor of Kings
-  // ==========================
-  hok: "honor of kings",
-  "honor of kings": "honor of kings",
-
-  // ==========================
-  // Arena of Valor
-  // ==========================
-  aov: "arena of valor",
-  "arena of valor": "arena of valor",
-
-  // ==========================
-  // League of Legends Wild Rift
-  // ==========================
-  wr: "league of legends wild rift",
-  wildrift: "league of legends wild rift",
-  "wild rift": "league of legends wild rift",
-  "league of legends wild rift": "league of legends wild rift",
-
-  // ==========================
-  // Pokémon Unite
-  // ==========================
-  unite: "pokemon unite",
-  "pokemon unite": "pokemon unite",
-
-  // ==========================
-  // Heroes of the Storm
-  // ==========================
-  hots: "heroes of the storm",
-  "heroes of the storm": "heroes of the storm",
-
-  // ==========================
-  // Heroes of Newerth
-  // ==========================
-  hon: "heroes of newerth",
-  "heroes of newerth": "heroes of newerth",
-
-  // ==========================
-  // Smite
-  // ==========================
-  smite: "smite",
-  smite: "smite",
-
-  // ==========================
-  // Smite 2
-  // ==========================
-  smite2: "smite 2",
-  "smite 2": "smite 2",
-
-  // ==========================
-  // Predecessor
-  // ==========================
-  predecessor: "predecessor",
-
-  // ==========================
-  // Paragon
-  // ==========================
-  paragon: "paragon",
-
-  // ==========================
-  // Deadlock
-  // ==========================
-  deadlock: "deadlock",
-
-  // ==========================
-  // Dota Underlords
-  // ==========================
-  underlords: "dota underlords",
-  "dota underlords": "dota underlords",
-
-  // ==========================
-  // Teamfight Tactics
-  // ==========================
-  tft: "teamfight tactics",
-  "teamfight tactics": "teamfight tactics",
-
-  // ==========================
-  // Auto Chess
-  // ==========================
-  autochess: "auto chess",
-  "auto chess": "auto chess",
-
-  // ==========================
-  // Hearthstone
-  // ==========================
-  hs: "hearthstone",
-  hearthstone: "hearthstone",
-
-  // ==========================
-  // Legends of Runeterra
-  // ==========================
-  lor: "legends of runeterra",
-  "legends of runeterra": "legends of runeterra",
-
-  // ==========================
-  // Magic The Gathering Arena
-  // ==========================
-  mtga: "magic the gathering arena",
-  "magic arena": "magic the gathering arena",
-  "magic the gathering arena": "magic the gathering arena",
-
-  // ==========================
-  // Yu-Gi-Oh Master Duel
-  // ==========================
-  masterduel: "yu-gi-oh master duel",
-  "master duel": "yu-gi-oh master duel",
-  "yu-gi-oh master duel": "yu-gi-oh master duel",
-
-  // ==========================
-  // Gwent
-  // ==========================
-  gwent: "gwent",
-
-  // ==========================
-  // Clash Royale
-  // ==========================
-  cr: "clash royale",
-  "clash royale": "clash royale",
-
-  // ==========================
-  // Clash of Clans
-  // ==========================
-  coc: "clash of clans",
-  "clash of clans": "clash of clans",
-
-  // ==========================
-  // Boom Beach
-  // ==========================
-  boombeach: "boom beach",
-  "boom beach": "boom beach",
-
-  // ==========================
-  // Clash Mini
-  // ==========================
-  clashmini: "clash mini",
-  "clash mini": "clash mini",
-
-  // ==========================
-  // Warcraft III
-  // ==========================
-  wc3: "warcraft iii",
-  "warcraft 3": "warcraft iii",
-  "warcraft iii": "warcraft iii",
-
-  // ==========================
-  // StarCraft
-  // ==========================
-  starcraft: "starcraft",
-  sc2: "starcraft ii",
-  "starcraft ii": "starcraft ii",
-
-  // ==========================
-  // Command & Conquer
-  // ==========================
-  cnc: "command and conquer",
-  "command and conquer": "command and conquer",
-  "command & conquer": "command and conquer",
-
-  // ==========================
-  // Command & Conquer Red Alert
-  // ==========================
-  ra2: "red alert 2",
-  ra3: "red alert 3",
-  "red alert": "red alert",
-  "red alert 2": "red alert 2",
-  "red alert 3": "red alert 3",
-
-  // ==========================
-  // Company of Heroes
-  // ==========================
-  coh: "company of heroes",
-  "company of heroes": "company of heroes",
-  "company of heroes 2": "company of heroes 2",
-  "company of heroes 3": "company of heroes 3",
-
-  // ==========================
-  // Total War
-  // ==========================
-  totalwar: "total war",
-  "total war": "total war",
-  "total war warhammer": "total war warhammer",
-  "total war warhammer 2": "total war warhammer 2",
-  "total war warhammer 3": "total war warhammer 3",
-
-  // ==========================
-  // Civilization
-  // ==========================
-  civ: "civilization vi",
-  civ5: "civilization v",
-  civ6: "civilization vi",
-  civ7: "civilization vii",
-  civilization: "civilization vi",
-  "civilization v": "civilization v",
-  "civilization vi": "civilization vi",
-  "civilization vii": "civilization vii",
+  // Age of Empires
+  // ==========================
+  aoe: "age of empires",
+  "age of empires": "age of empires",
+  "age of empires definitive edition": "age of empires",
+  "age of empires ii": "age of empires ii definitive edition",
+  "age of empires 2": "age of empires ii definitive edition",
+  "age of empires ii definitive edition":
+    "age of empires ii definitive edition",
+  aoe2: "age of empires ii definitive edition",
+  aoeii: "age of empires ii definitive edition",
+  "age of empires iii": "age of empires iii definitive edition",
+  "age of empires 3": "age of empires iii definitive edition",
+  aoe3: "age of empires iii definitive edition",
+  "age of empires iv": "age of empires iv",
+  "age of empires 4": "age of empires iv",
+  aoe4: "age of empires iv",
 
   // ==========================
   // Age of Mythology
@@ -828,130 +36,123 @@ module.exports = {
   aom: "age of mythology retold",
   "age of mythology": "age of mythology retold",
   "age of mythology retold": "age of mythology retold",
-
-  // ==========================
-  // Empire Earth
-  // ==========================
-  "empire earth": "empire earth",
-
-  // ==========================
-  // Stronghold
-  // ==========================
-  stronghold: "stronghold",
-  "stronghold crusader": "stronghold crusader",
-
-  // ==========================
-  // Rise of Nations
-  // ==========================
-  ron: "rise of nations",
-  "rise of nations": "rise of nations",
-
-  // ==========================
-  // Supreme Commander
-  // ==========================
-  supcom: "supreme commander",
-  "supreme commander": "supreme commander",
-  "supreme commander forged alliance": "supreme commander forged alliance",
-
-  // ==========================
-  // Northgard
-  // ==========================
-  northgard: "northgard",
-
-  // ==========================
-  // Beyond All Reason
-  // ==========================
-  bar: "beyond all reason",
-  "beyond all reason": "beyond all reason",
-
-  // ==========================
-  // Stormgate
-  // ==========================
-  stormgate: "stormgate",
-
-  // ==========================
-  // Battle Aces
-  // ==========================
-  "battle aces": "battle aces",
-
-  // ==========================
-  // Manor Lords
-  // ==========================
-  "manor lords": "manor lords",
-
-  // ==========================
-  // Frostpunk
-  // ==========================
-  frostpunk: "frostpunk",
-  "frostpunk 2": "frostpunk 2",
-
-  // ==========================
-  // RimWorld
-  // ==========================
-  rimworld: "rimworld",
-
-  // ==========================
-  // Oxygen Not Included
-  // ==========================
-  oni: "oxygen not included",
-  "oxygen not included": "oxygen not included",
-
-  // ==========================
-  // Banished
-  // ==========================
-  banished: "banished",
+  "aom retold": "age of mythology retold",
+  "age mythology": "age of mythology retold",
+  aomr: "age of mythology retold",
 
   // ==========================
   // Against the Storm
   // ==========================
   "against the storm": "against the storm",
+  againststorm: "against the storm",
 
   // ==========================
-  // Anno
+  // Albion Online
   // ==========================
-  anno: "anno 1800",
-  "anno 1800": "anno 1800",
+  albion: "albion online",
+  "albion online": "albion online",
+  albiononline: "albion online",
+  ao: "albion online",
+  "albion mmo": "albion online",
+  "albion game": "albion online",
+  "albion pvp": "albion online",
+  "albion eu": "albion online",
+  "albion asia": "albion online",
+  "albion west": "albion online",
 
   // ==========================
-  // Europa Universalis
+  // Alliance of Valiant Arms
   // ==========================
-  eu4: "europa universalis iv",
-  "europa universalis iv": "europa universalis iv",
+  ava: "alliance of valiant arms",
+  "alliance of valiant arms": "alliance of valiant arms",
+  "a.v.a": "alliance of valiant arms",
+  "ava global": "alliance of valiant arms",
+  "ava dog tag": "alliance of valiant arms",
 
   // ==========================
-  // Crusader Kings
+  // Among Us
   // ==========================
-  ck3: "crusader kings iii",
-  "crusader kings iii": "crusader kings iii",
+  amongus: "among us",
+  "among us": "among us",
+  among: "among us",
+  amus: "among us",
+  "among-us": "among us",
+  "among us vr": "among us vr",
+  amongvr: "among us vr",
+  "among us vr": "among us vr",
 
   // ==========================
-  // Hearts of Iron
+  // Apex Legends
   // ==========================
-  hoi4: "hearts of iron iv",
-  "hearts of iron iv": "hearts of iron iv",
+  apex: "apex legends",
+  "apex legends": "apex legends",
+  apexlegends: "apex legends",
+  al: "apex legends",
+  "apex game": "apex legends",
+  "apex br": "apex legends",
+  "apex battle royale": "apex legends",
+  "apex ranked": "apex legends",
+  "apex pubs": "apex legends",
+  "apex arenas": "apex legends",
+  "apex legends mobile": "apex legends mobile",
+  alm: "apex legends mobile",
 
   // ==========================
-  // Stellaris
+  // Arma
   // ==========================
-  stellaris: "stellaris",
-  // ==========================
-  // Need for Speed
-  // ==========================
-  nfs: "need for speed",
-  "need for speed": "need for speed",
-  "need for speed heat": "need for speed heat",
-  "need for speed unbound": "need for speed unbound",
-  "need for speed payback": "need for speed payback",
-  "need for speed rivals": "need for speed rivals",
-  "need for speed underground": "need for speed underground",
-  "need for speed underground 2": "need for speed underground 2",
-  "need for speed most wanted": "need for speed most wanted",
+  arma: "arma 3",
+  arma: "arma 3",
+  "arma 2": "arma 2",
+  arma2: "arma 2",
+  "arma 3": "arma 3",
+  arma3: "arma 3",
+  "arma reforger": "arma reforger",
+  reforger: "arma reforger",
+  "arma reforger game": "arma reforger",
 
   // ==========================
-  // Forza Motorsport
+  // Arena Breakout
   // ==========================
-  fm: "forza motorsport",
-  "forza motorsport": "forza motorsport",
+  ab: "arena breakout",
+  "arena breakout": "arena breakout",
+  arenabreakout: "arena breakout",
+  "arena breakout mobile": "arena breakout",
+  "arena breakout infinite": "arena breakout infinite",
+  abi: "arena breakout infinite",
+  infinite: "arena breakout infinite",
+  "ab infinite": "arena breakout infinite",
+  "arena breakout pc": "arena breakout infinite",
+
+  // ==========================
+  // Ark
+  // ==========================
+  ark: "ark survival ascended",
+  "ark survival evolved": "ark survival evolved",
+  ase: "ark survival evolved",
+  "ark evolved": "ark survival evolved",
+  "ark survival ascended": "ark survival ascended",
+  asa: "ark survival ascended",
+  "ark ascended": "ark survival ascended",
+  "ark se": "ark survival evolved",
+  "ark sa": "ark survival ascended",
+
+  // ==========================
+  // Arsenal (Roblox)
+  // ==========================
+  arsenal: "roblox arsenal",
+  "roblox arsenal": "roblox arsenal",
+  arsenalrbx: "roblox arsenal",
+  "arsenal roblox": "roblox arsenal",
+
+  // ==========================
+  // Asphalt
+  // ==========================
+  asphalt: "asphalt legends unite",
+  "asphalt legends": "asphalt legends unite",
+  "asphalt legends unite": "asphalt legends unite",
+  asphalt9: "asphalt legends unite",
+  "asphalt 9": "asphalt legends unite",
+  alu: "asphalt legends unite",
 
   // ==========================
   // Assetto Corsa
@@ -964,559 +165,2279 @@ module.exports = {
   "assetto corsa evo": "assetto corsa evo",
 
   // ==========================
-  // Gran Turismo
+  // Astroneer
   // ==========================
-  gt7: "gran turismo 7",
-  gt: "gran turismo",
-  "gran turismo": "gran turismo",
-  "gran turismo 7": "gran turismo 7",
+  astroneer: "astroneer",
+  astroneer: "astroneer",
+  astro: "astroneer",
+  "astroneer coop": "astroneer",
+  "astroneer co-op": "astroneer",
 
   // ==========================
-  // The Crew
+  // Auto Chess
   // ==========================
-  crew: "the crew motorfest",
-  motorfest: "the crew motorfest",
-  "the crew": "the crew",
-  "the crew 2": "the crew 2",
-  "the crew motorfest": "the crew motorfest",
+  autochess: "auto chess",
+  "auto chess": "auto chess",
+  autochess: "auto chess",
+  acm: "auto chess",
 
   // ==========================
-  // Test Drive Unlimited
+  // Avatar: Frontiers of Pandora (Co-op)
   // ==========================
-  tdu: "test drive unlimited",
-  tdusc: "test drive unlimited solar crown",
-  "test drive unlimited": "test drive unlimited",
-  "test drive unlimited solar crown": "test drive unlimited solar crown",
+  avatar: "avatar frontiers of pandora",
+  avatar: "avatar frontiers of pandora",
+  "avatar frontiers": "avatar frontiers of pandora",
+  "avatar frontiers of pandora": "avatar frontiers of pandora",
+  afop: "avatar frontiers of pandora",
+  "avatar coop": "avatar frontiers of pandora",
 
   // ==========================
-  // F1
+  // Back 4 Blood
   // ==========================
-  f1: "ea sports f1",
-  "ea sports f1": "ea sports f1",
-  "f1 24": "ea sports f1",
-  "f1 25": "ea sports f1",
+  b4b: "back 4 blood",
+  back4blood: "back 4 blood",
+  "back 4 blood": "back 4 blood",
+  back4blood: "back 4 blood",
+  b4blood: "back 4 blood",
+  "back four blood": "back 4 blood",
+  "back 4": "back 4 blood",
 
   // ==========================
-  // MotoGP
+  // Badlanders
   // ==========================
-  motogp: "motogp",
+  badlanders: "badlanders",
+  badlanders: "badlanders",
+  badlander: "badlanders",
+  "bad landers": "badlanders",
 
   // ==========================
-  // Ride
-  // ==========================
-  ride5: "ride 5",
-  "ride 5": "ride 5",
+  // Banished
+  //
+  // (Removed - Single-player only)
 
   // ==========================
-  // WRC
+  // Battlefield
   // ==========================
-  wrc: "ea sports wrc",
-  "ea sports wrc": "ea sports wrc",
+  battlefield: "battlefield",
+  bf: "battlefield",
+  bf1: "battlefield 1",
+  "battlefield 1": "battlefield 1",
+  bf4: "battlefield 4",
+  "battlefield 4": "battlefield 4",
+  bf5: "battlefield v",
+  "battlefield v": "battlefield v",
+  bfv: "battlefield v",
+  bf2042: "battlefield 2042",
+  "battlefield 2042": "battlefield 2042",
+  "battlefield six": "battlefield",
+  "battlefield online": "battlefield",
 
   // ==========================
-  // BeamNG
+  // Battle Aces
+  // ==========================
+  "battle aces": "battle aces",
+  battleaces: "battle aces",
+  ba: "battle aces",
+
+  // ==========================
+  // Battle Teams 2
+  // ==========================
+  bt2: "battle teams 2",
+  "battle teams 2": "battle teams 2",
+  battleteams2: "battle teams 2",
+
+  // ==========================
+  // BeamNG.drive Multiplayer
   // ==========================
   beamng: "beamng.drive",
   beamng: "beamng.drive",
   "beamng drive": "beamng.drive",
+  beammp: "beammp",
+  beammp: "beammp",
+  "beamng multiplayer": "beammp",
 
   // ==========================
-  // CarX
+  // BedWars (Roblox)
   // ==========================
-  carx: "carx drift racing online",
-  "carx drift racing": "carx drift racing online",
-  "carx drift racing online": "carx drift racing online",
+  bedwars: "roblox bedwars",
+  "bed wars": "roblox bedwars",
+  "roblox bedwars": "roblox bedwars",
+  bedwarsrbx: "roblox bedwars",
 
   // ==========================
-  // iRacing
+  // Beyond All Reason
   // ==========================
-  iracing: "iracing",
+  bar: "beyond all reason",
+  "beyond all reason": "beyond all reason",
+  beyondallreason: "beyond all reason",
 
   // ==========================
-  // Trackmania
+  // Black Desert Online
   // ==========================
-  trackmania: "trackmania",
+  bdo: "black desert online",
+  blackdesert: "black desert online",
+  blackdesertonline: "black desert online",
+  "black desert": "black desert online",
+  "black desert online": "black desert online",
+  bdoonline: "black desert online",
 
   // ==========================
-  // Wreckfest
+  // Black Squad
   // ==========================
-  wreckfest: "wreckfest",
+  blacksquad: "black squad",
+  "black squad": "black squad",
+  bsquad: "black squad",
 
   // ==========================
-  // EA Sports FC
+  // Blox Fruits
   // ==========================
-  fc: "ea sports fc",
-  fc26: "ea sports fc",
-  fc27: "ea sports fc",
+  bloxfruits: "blox fruits",
+  "blox fruits": "blox fruits",
+  bloxfruit: "blox fruits",
+  bfruits: "blox fruits",
 
   // ==========================
-  // eFootball
+  // Blood Strike
   // ==========================
-  pes: "efootball",
-  efootball: "efootball",
-  "e football": "efootball",
+  bloodstrike: "blood strike",
+  "blood strike": "blood strike",
+  bs: "blood strike",
+  blood: "blood strike",
+  bloodstrike: "blood strike",
 
   // ==========================
-  // NBA 2K
+  // Blue Protocol
   // ==========================
-  nba: "nba 2k",
-  nba2k: "nba 2k",
-  "nba 2k": "nba 2k",
-  "nba 2k25": "nba 2k",
-  "nba 2k26": "nba 2k",
+  blueprotocol: "blue protocol",
+  "blue protocol": "blue protocol",
+  bp: "blue protocol",
 
   // ==========================
-  // Madden NFL
+  // Bombergrounds
   // ==========================
-  madden: "madden nfl",
-  "madden nfl": "madden nfl",
+  bombergrounds: "bombergrounds",
+  bombergrounds: "bombergrounds",
+  bg: "bombergrounds",
 
   // ==========================
-  // NHL
+  // Boom Beach
   // ==========================
-  nhl: "nhl",
+  boombeach: "boom beach",
+  "boom beach": "boom beach",
+  bb: "boom beach",
 
   // ==========================
-  // MLB The Show
+  // Brawlhalla
   // ==========================
-  mlb: "mlb the show",
-  "mlb the show": "mlb the show",
-
-  // ==========================
-  // WWE 2K
-  // ==========================
-  wwe: "wwe 2k",
-  "wwe 2k": "wwe 2k",
-  "wwe 2k25": "wwe 2k",
-
-  // ==========================
-  // Cricket
-  // ==========================
-  cricket24: "cricket 24",
-  "cricket 24": "cricket 24",
-  ashes: "ashes cricket",
-  "ashes cricket": "ashes cricket",
-
-  // ==========================
-  // Tennis
-  // ==========================
-  topspin: "topspin 2k25",
-  "topspin 2k25": "topspin 2k25",
-  tiebreak: "tiebreak",
-
-  // ==========================
-  // Golf
-  // ==========================
-  pga: "pga tour 2k",
-  "pga tour 2k": "pga tour 2k",
-
-  // ==========================
-  // Tekken
-  // ==========================
-  tekken: "tekken 8",
-  t8: "tekken 8",
-  "tekken 8": "tekken 8",
-
-  // ==========================
-  // Street Fighter
-  // ==========================
-  sf6: "street fighter 6",
-  "street fighter": "street fighter 6",
-  "street fighter 6": "street fighter 6",
-
-  // ==========================
-  // Mortal Kombat
-  // ==========================
-  mk: "mortal kombat 1",
-  mk1: "mortal kombat 1",
-  "mortal kombat": "mortal kombat 1",
-  "mortal kombat 1": "mortal kombat 1",
-
-  // ==========================
-  // Guilty Gear
-  // ==========================
-  ggst: "guilty gear strive",
-  "guilty gear strive": "guilty gear strive",
-
-  // ==========================
-  // Dragon Ball FighterZ
-  // ==========================
-  dbfz: "dragon ball fighterz",
-  "dragon ball fighterz": "dragon ball fighterz",
-
-  // ==========================
-  // Dragon Ball Sparking Zero
-  // ==========================
-  sparkingzero: "dragon ball sparking zero",
-  "dragon ball sparking zero": "dragon ball sparking zero",
-
-  // ==========================
-  // MultiVersus
-  // ==========================
-  multiversus: "multiversus",
-
-  // ==========================
-  // Nickelodeon All-Star Brawl
-  // ==========================
-  nasb: "nickelodeon all-star brawl",
-  "nickelodeon all-star brawl": "nickelodeon all-star brawl",
-
-  // ==========================
-  // Rivals of Aether
-  // ==========================
-  roa: "rivals of aether",
-  "rivals of aether": "rivals of aether",
-
-  // ==========================
-  // Super Smash Bros
-  // ==========================
-  smash: "super smash bros ultimate",
-  ssbu: "super smash bros ultimate",
-  "super smash bros": "super smash bros ultimate",
-  "super smash bros ultimate": "super smash bros ultimate",
-
-  // ==========================
-  // Party Games
-  // ==========================
-  stumble: "stumble guys",
-  "stumble guys": "stumble guys",
-  eggyparty: "eggy party",
-  "eggy party": "eggy party",
-  amongus: "among us",
-  "human fall flat": "human fall flat",
-  gangbeasts: "gang beasts",
-  "gang beasts": "gang beasts",
-  pico: "pico park",
-  "pico park": "pico park",
-  "moving out": "moving out",
-  overcooked: "overcooked 2",
-  overcooked: "overcooked 2",
-  "overcooked 2": "overcooked 2",
-
-  // ==========================
-  // Truck Simulator
-  // ==========================
-  ats: "american truck simulator",
-  "american truck simulator": "american truck simulator",
-
-  // ==========================
-  // Farming Simulator
-  // ==========================
-  fs22: "farming simulator 22",
-  fs25: "farming simulator 25",
-  "farming simulator": "farming simulator",
-  "farming simulator 22": "farming simulator 22",
-  "farming simulator 25": "farming simulator 25",
-
-  // ==========================
-  // Microsoft Flight Simulator
-  // ==========================
-  msfs: "microsoft flight simulator",
-  "microsoft flight simulator": "microsoft flight simulator",
-  msfs2024: "microsoft flight simulator 2024",
-  "microsoft flight simulator 2024": "microsoft flight simulator 2024",
-
-  // ==========================
-  // Train Sim World
-  // ==========================
-  tsw: "train sim world",
-  "train sim world": "train sim world",
-
-  // ==========================
-  // Bus Simulator
-  // ==========================
-  bussim: "bus simulator",
-  "bus simulator": "bus simulator",
-
-  // ==========================
-  // Construction Simulator
-  // ==========================
-  constructionsim: "construction simulator",
-  "construction simulator": "construction simulator",
-
-  // ==========================
-  // PowerWash Simulator
-  // ==========================
-  powerwash: "powerwash simulator",
-  "powerwash simulator": "powerwash simulator",
-
-  // ==========================
-  // SnowRunner
-  // ==========================
-  snowrunner: "snowrunner",
-
-  // ==========================
-  // MudRunner
-  // ==========================
-  mudrunner: "mudrunner",
-
-  // ==========================
-  // Expeditions
-  // ==========================
-  expeditions: "expeditions a mudrunner game",
-  "expeditions a mudrunner game": "expeditions a mudrunner game",
-  // ==========================
-  // Mobile Multiplayer
-  // ==========================
-  codm: "call of duty mobile",
-  "cod mobile": "call of duty mobile",
+  brawlhalla: "brawlhalla",
+  brawlhalla: "brawlhalla",
+  brawlh: "brawlhalla",
+  brawls: "brawlhalla",
 
   // ==========================
   // Brawl Stars
   // ==========================
   brawlstars: "brawl stars",
   "brawl stars": "brawl stars",
+  bsgame: "brawl stars",
+  bstars: "brawl stars",
 
   // ==========================
-  // Clash Heroes
+  // Breachers VR
   // ==========================
-  "clash heroes": "clash heroes",
+  breachers: "breachers",
+  breachers: "breachers",
+  breachersvr: "breachers",
+
+  // ==========================
+  // Brookhaven (Roblox)
+  // ==========================
+  brookhaven: "brookhaven",
+  brookhaven: "brookhaven",
+  brookhavenrp: "brookhaven",
+  // ==========================
+  // Buckshot Roulette (Multiplayer Mod)
+  // ==========================
+  buckshot: "buckshot roulette",
+  "buckshot roulette": "buckshot roulette",
+  buckshotroulette: "buckshot roulette",
+  bsr: "buckshot roulette",
+
+  // ==========================
+  // Call of Duty
+  // ==========================
+  cod: "call of duty",
+  "call of duty": "call of duty",
+  callofduty: "call of duty",
+  "cod multiplayer": "call of duty",
+  "cod online": "call of duty",
+
+  // ==========================
+  // Call of Duty: Warzone
+  // ==========================
+  warzone: "call of duty warzone",
+  warzone: "call of duty warzone",
+  "cod warzone": "call of duty warzone",
+  "call of duty warzone": "call of duty warzone",
+  warzone2: "call of duty warzone",
+  wz: "call of duty warzone",
+  wz2: "call of duty warzone",
+
+  // ==========================
+  // Call of Duty: Mobile
+  // ==========================
+  codm: "call of duty mobile",
+  "call of duty mobile": "call of duty mobile",
+  "cod mobile": "call of duty mobile",
+  codmobile: "call of duty mobile",
+  "codm global": "call of duty mobile",
+  "codm garena": "call of duty mobile",
+
+  // ==========================
+  // Call of Duty: Black Ops 6
+  // ==========================
+  bo6: "call of duty black ops 6",
+  "black ops 6": "call of duty black ops 6",
+  "cod bo6": "call of duty black ops 6",
+  "call of duty black ops 6": "call of duty black ops 6",
+
+  // ==========================
+  // Call of Duty: Modern Warfare III
+  // ==========================
+  mw3: "call of duty modern warfare iii",
+  "modern warfare 3": "call of duty modern warfare iii",
+  "mw iii": "call of duty modern warfare iii",
+  "call of duty modern warfare iii": "call of duty modern warfare iii",
+
+  // ==========================
+  // Call of Duty: Modern Warfare II
+  // ==========================
+  mw2: "call of duty modern warfare ii",
+  "modern warfare 2": "call of duty modern warfare ii",
+  "mw ii": "call of duty modern warfare ii",
+  "call of duty modern warfare ii": "call of duty modern warfare ii",
+
+  // ==========================
+  // Call of Duty: Vanguard
+  // ==========================
+  vanguard: "call of duty vanguard",
+  "cod vanguard": "call of duty vanguard",
+  "call of duty vanguard": "call of duty vanguard",
+
+  // ==========================
+  // Call of Duty: Cold War
+  // ==========================
+  coldwar: "call of duty black ops cold war",
+  "black ops cold war": "call of duty black ops cold war",
+  bocw: "call of duty black ops cold war",
+  "cod cold war": "call of duty black ops cold war",
+
+  // ==========================
+  // Call of Dragons
+  // ==========================
+  callofdragons: "call of dragons",
+  "call of dragons": "call of dragons",
+  codragons: "call of dragons",
+
+  // ==========================
+  // Century: Age of Ashes
+  // ==========================
+  century: "century age of ashes",
+  "century age of ashes": "century age of ashes",
+  coa: "century age of ashes",
+
+  // ==========================
+  // Chained Together
+  // ==========================
+  chained: "chained together",
+  "chained together": "chained together",
+  chainedtogether: "chained together",
+
+  // ==========================
+  // Chess.com
+  // ==========================
+  chess: "chess.com",
+  "chess.com": "chess.com",
+  chesscom: "chess.com",
+  onlinechess: "chess.com",
+
+  // ==========================
+  // Chivalry 2
+  // ==========================
+  chiv2: "chivalry 2",
+  "chivalry 2": "chivalry 2",
+  chivalry2: "chivalry 2",
+  chivalry: "chivalry 2",
+
+  // ==========================
+  // Clash Mini
+  // ==========================
+  clashmini: "clash mini",
+  "clash mini": "clash mini",
+
+  // ==========================
+  // Clash of Clans
+  // ==========================
+  coc: "clash of clans",
+  clashofclans: "clash of clans",
+  "clash of clans": "clash of clans",
+  cocgame: "clash of clans",
+  clans: "clash of clans",
+
+  // ==========================
+  // Clash Royale
+  // ==========================
+  cr: "clash royale",
+  clashroyale: "clash royale",
+  "clash royale": "clash royale",
+  royale: "clash royale",
+
+  // ==========================
+  // Combat Master
+  // ==========================
+  combatmaster: "combat master",
+  "combat master": "combat master",
+  cm: "combat master",
+
+  // ==========================
+  // Conan Exiles
+  // ==========================
+  conan: "conan exiles",
+  "conan exiles": "conan exiles",
+  conanexiles: "conan exiles",
+
+  // ==========================
+  // Counter-Strike 2
+  // ==========================
+  cs2: "counter-strike 2",
+  "counter strike 2": "counter-strike 2",
+  "counter-strike 2": "counter-strike 2",
+  counterstrike2: "counter-strike 2",
+  counterstrike: "counter-strike 2",
+  cs: "counter-strike 2",
+
+  // ==========================
+  // Crab Game
+  // ==========================
+  crabgame: "crab game",
+  "crab game": "crab game",
+  crab: "crab game",
+
+  // ==========================
+  // CrossFire
+  // ==========================
+  crossfire: "crossfire",
+  crossfire: "crossfire",
+  cf: "crossfire",
+
+  // ==========================
+  // Crystal of Atlan
+  // ==========================
+  coaonline: "crystal of atlan",
+  "crystal of atlan": "crystal of atlan",
+  crystalofatlan: "crystal of atlan",
+  // ==========================
+  // Core Keeper
+  // ==========================
+  corekeeper: "core keeper",
+  "core keeper": "core keeper",
+  core: "core keeper",
+  ck: "core keeper",
+  corekeeper: "core keeper",
+  "core keeper game": "core keeper",
+  "core keeper coop": "core keeper",
+  "core keeper co-op": "core keeper",
+
+  // ==========================
+  // Creatures of Sonaria (Roblox)
+  // ==========================
+  cos: "creatures of sonaria",
+  "creatures of sonaria": "creatures of sonaria",
+  creaturesofsonaria: "creatures of sonaria",
+  sonaria: "creatures of sonaria",
+  "roblox sonaria": "creatures of sonaria",
+  "cos roblox": "creatures of sonaria",
+
+  // ==========================
+  // Crossout
+  // ==========================
+  crossout: "crossout",
+  crossout: "crossout",
+  cross: "crossout",
+  co: "crossout",
+  "crossout game": "crossout",
+  "crossout online": "crossout",
+  "crossout pvp": "crossout",
+
+  // ==========================
+  // Cyber Hunter
+  // ==========================
+  cyberhunter: "cyber hunter",
+  "cyber hunter": "cyber hunter",
+  hunter: "cyber hunter",
+  ch: "cyber hunter",
+  cyberhunter: "cyber hunter",
+
+  // ==========================
+  // Dauntless
+  // ==========================
+  dauntless: "dauntless",
+  dauntless: "dauntless",
+  dl: "dauntless",
+  "dauntless game": "dauntless",
+  "dauntless hunt": "dauntless",
+  "monster hunter free": "dauntless",
+
+  // ==========================
+  // Dead by Daylight
+  // ==========================
+  dbd: "dead by daylight",
+  deadbydaylight: "dead by daylight",
+  "dead by daylight": "dead by daylight",
+  deadby: "dead by daylight",
+  daylight: "dead by daylight",
+  "dbd mobile": "dead by daylight mobile",
+  "dead by daylight mobile": "dead by daylight mobile",
+
+  // ==========================
+  // Dead Frontier 2
+  // ==========================
+  df2: "dead frontier 2",
+  "dead frontier 2": "dead frontier 2",
+  deadfrontier2: "dead frontier 2",
+  deadfrontier: "dead frontier 2",
+
+  // ==========================
+  // Deadlock
+  // ==========================
+  deadlock: "deadlock",
+  deadlock: "deadlock",
+  valvedeadlock: "deadlock",
+  "deadlock valve": "deadlock",
+
+  // ==========================
+  // Deceit
+  // ==========================
+  deceit: "deceit",
+  deceit: "deceit",
+  deceit2: "deceit 2",
+  "deceit 2": "deceit 2",
+
+  // ==========================
+  // Deep Rock Galactic
+  // ==========================
+  drg: "deep rock galactic",
+  "deep rock galactic": "deep rock galactic",
+  deeprock: "deep rock galactic",
+  rockgalactic: "deep rock galactic",
+  "deep rock": "deep rock galactic",
+  "rock and stone": "deep rock galactic",
+
+  // ==========================
+  // Delta Force
+  // ==========================
+  deltaforce: "delta force",
+  "delta force": "delta force",
+  df: "delta force",
+  "delta force hawk ops": "delta force",
+  hawkops: "delta force",
+
+  // ==========================
+  // Destiny 2
+  // ==========================
+  destiny2: "destiny 2",
+  "destiny 2": "destiny 2",
+  d2: "destiny 2",
+  destiny: "destiny 2",
+  "destiny two": "destiny 2",
+
+  // ==========================
+  // Diablo Immortal
+  // ==========================
+  diabloimmortal: "diablo immortal",
+  "diablo immortal": "diablo immortal",
+  di: "diablo immortal",
+  immortal: "diablo immortal",
+
+  // ==========================
+  // Dota 2
+  // ==========================
+  dota: "dota 2",
+  dota2: "dota 2",
+  "dota 2": "dota 2",
+  defenseoftheancients: "dota 2",
+  moba: "dota 2",
+
+  // ==========================
+  // Dragon Ball: Sparking! ZERO
+  // ==========================
+  sparkingzero: "dragon ball sparking zero",
+  "sparking zero": "dragon ball sparking zero",
+  dbsz: "dragon ball sparking zero",
+  "dragon ball sparking zero": "dragon ball sparking zero",
+
+  // ==========================
+  // Dragon Raja
+  // ==========================
+  dragonraja: "dragon raja",
+  "dragon raja": "dragon raja",
+  dr: "dragon raja",
+
+  // ==========================
+  // Dune: Awakening
+  // ==========================
+  dune: "dune awakening",
+  "dune awakening": "dune awakening",
+  dunea: "dune awakening",
+
+  // ==========================
+  // Dying Light
+  // ==========================
+  dyinglight: "dying light",
+  "dying light": "dying light",
+  dl1: "dying light",
+  "dying light 1": "dying light",
+  dyinglight2: "dying light 2 stay human",
+  "dying light 2": "dying light 2 stay human",
+  dl2: "dying light 2 stay human",
+  "stay human": "dying light 2 stay human",
+
+  // ==========================
+  // EA SPORTS FC
+  // ==========================
+  fc: "ea sports fc 25",
+  "ea sports fc": "ea sports fc 25",
+  eafc: "ea sports fc 25",
+  eafc24: "ea sports fc 24",
+  "ea sports fc 24": "ea sports fc 24",
+  fc24: "ea sports fc 24",
+  eafc25: "ea sports fc 25",
+  "ea sports fc 25": "ea sports fc 25",
+  fc25: "ea sports fc 25",
+  fifa: "ea sports fc 25",
+  fifa24: "ea sports fc 24",
+  fifa25: "ea sports fc 25",
+  "football club": "ea sports fc 25",
+
+  // ==========================
+  // EFootball
+  // ==========================
+  efootball: "efootball",
+  efootball: "efootball",
+  pes: "efootball",
+  pes2021: "efootball",
+  pesmobile: "efootball",
+  konamifootball: "efootball",
+  "pro evolution soccer": "efootball",
+
+  // ==========================
+  // Elden Ring Nightreign
+  // ==========================
+  nightreign: "elden ring nightreign",
+  "elden ring nightreign": "elden ring nightreign",
+  ern: "elden ring nightreign",
+  "night reign": "elden ring nightreign",
+
+  // ==========================
+  // Elite Dangerous
+  // ==========================
+  elite: "elite dangerous",
+  elitedangerous: "elite dangerous",
+  "elite dangerous": "elite dangerous",
+  ed: "elite dangerous",
+  "elite dangerous odyssey": "elite dangerous",
+
+  // ==========================
+  // Enlisted
+  // ==========================
+  enlisted: "enlisted",
+  enlisted: "enlisted",
+  enlist: "enlisted",
+  "enlisted game": "enlisted",
+
+  // ==========================
+  // Escape from Tarkov
+  // ==========================
+  eft: "escape from tarkov",
+  tarkov: "escape from tarkov",
+  "escape from tarkov": "escape from tarkov",
+  escapefromtarkov: "escape from tarkov",
+  "eft arena": "escape from tarkov arena",
+  tarkovarena: "escape from tarkov arena",
+  "escape from tarkov arena": "escape from tarkov arena",
+
+  // ==========================
+  // Eternal Return
+  // ==========================
+  eternalreturn: "eternal return",
+  "eternal return": "eternal return",
+  erbs: "eternal return",
+  blacksurvival: "eternal return",
+
+  // ==========================
+  // Euro Truck Simulator 2
+  // ==========================
+  ets2: "euro truck simulator 2",
+  "euro truck simulator 2": "euro truck simulator 2",
+  eurotruck: "euro truck simulator 2",
+  ets: "euro truck simulator 2",
+  truckersmp: "truckersmp",
+  "truckers mp": "truckersmp",
+  tmp: "truckersmp",
+
+  // ==========================
+  // Exoborne
+  // ==========================
+  exoborne: "exoborne",
+  exoborne: "exoborne",
+
+  // ==========================
+  // Exoprimal
+  // ==========================
+  exoprimal: "exoprimal",
+  exoprimal: "exoprimal",
+  exo: "exoprimal",
+
+  // ==========================
+  // Farlight 84
+  // ==========================
+  farlight84: "farlight 84",
+  "farlight 84": "farlight 84",
+  fl84: "farlight 84",
+  farlight: "farlight 84",
+
+  // ==========================
+  // Fall Guys
+  // ==========================
+  fallguys: "fall guys",
+  "fall guys": "fall guys",
+  fg: "fall guys",
+  fallguysultimate: "fall guys",
+  "fall guys ultimate knockout": "fall guys",
+
+  // ==========================
+  // Farming Simulator
+  // ==========================
+  fs22: "farming simulator 22",
+  "farming simulator 22": "farming simulator 22",
+  farmingsimulator22: "farming simulator 22",
+  fs25: "farming simulator 25",
+  "farming simulator 25": "farming simulator 25",
+  farmingsimulator25: "farming simulator 25",
+
+  // ==========================
+  // Fatal Fury: City of the Wolves
+  // ==========================
+  fatalfury: "fatal fury city of the wolves",
+  "fatal fury": "fatal fury city of the wolves",
+  cotw: "fatal fury city of the wolves",
+  "city of the wolves": "fatal fury city of the wolves",
+
+  // ==========================
+  // Final Fantasy XIV Online
+  // ==========================
+  ffxiv: "final fantasy xiv online",
+  "final fantasy xiv": "final fantasy xiv online",
+  ff14: "final fantasy xiv online",
+  "final fantasy xiv online": "final fantasy xiv online",
+  ffxivonline: "final fantasy xiv online",
+
+  // ==========================
+  // First Descendant
+  // ==========================
+  tfd: "the first descendant",
+  "the first descendant": "the first descendant",
+  firstdescendant: "the first descendant",
+  descendant: "the first descendant",
+
+  // ==========================
+  // Fortnite
+  // ==========================
+  fortnite: "fortnite",
+  fn: "fortnite",
+  fort: "fortnite",
+  fortnitebr: "fortnite",
+  "fortnite battle royale": "fortnite",
+  fortnitecreative: "fortnite",
+  creative: "fortnite",
+  zerobuild: "fortnite",
+  "zero build": "fortnite",
+  reload: "fortnite",
+  festival: "fortnite festival",
+  legofortnite: "lego fortnite",
+  "lego fortnite": "lego fortnite",
+  rocketracing: "rocket racing",
+
+  // ==========================
+  // FragPunk
+  // ==========================
+  fragpunk: "fragpunk",
+  fragpunk: "fragpunk",
+  fp: "fragpunk",
+  "frag punk": "fragpunk",
+  frag: "fragpunk",
+
+  // ==========================
+  // Free Fire
+  // ==========================
+  ff: "free fire",
+  freefire: "free fire",
+  "free fire": "free fire",
+  garenaff: "free fire",
+  "garena free fire": "free fire",
+  freefiremax: "free fire max",
+  "free fire max": "free fire max",
+  ffmax: "free fire max",
+  ffm: "free fire max",
+  "ff india": "free fire max",
+  "free fire india": "free fire max",
+  "ff global": "free fire",
+  "garena ff": "free fire",
+
+  // ==========================
+  // For Honor
+  // ==========================
+  forhonor: "for honor",
+  "for honor": "for honor",
+  fh: "for honor",
+  honor: "for honor",
+
+  // ==========================
+  // For The King II
+  // ==========================
+  ftk2: "for the king ii",
+  "for the king ii": "for the king ii",
+  fortheking2: "for the king ii",
+  "for the king 2": "for the king ii",
+
+  // ==========================
+  // Forza Horizon
+  // ==========================
+  fh4: "forza horizon 4",
+  "forza horizon 4": "forza horizon 4",
+  forzahorizon4: "forza horizon 4",
+  fh5: "forza horizon 5",
+  fh4: "forza horizon 4",
+  fh6: "forza horizon 6",
+  "forza horizon 5": "forza horizon 5",
+  forzahorizon5: "forza horizon 5",
+  forza: "forza horizon 5",
+  "horizon 5": "forza horizon 5",
+  "horizon 4": "forza horizon 4",
+  "horizon 6": "forza horizon 6",
+
+  // ==========================
+  // Foxhole
+  // ==========================
+  foxhole: "foxhole",
+  foxhole: "foxhole",
+  fox: "foxhole",
+  fhole: "foxhole",
+
+  // ==========================
+  // Friends vs Friends
+  // ==========================
+  friendsvsfriends: "friends vs friends",
+  "friends vs friends": "friends vs friends",
+  fvf: "friends vs friends",
+
+  // ==========================
+  // F1
+  // ==========================
+  f1: "f1 25",
+  f1: "f1 25",
+  "f1 24": "f1 24",
+  f124: "f1 24",
+  "f1 25": "f1 25",
+  f125: "f1 25",
+  formula1: "f1 25",
+
+  // ==========================
+  // Game of Thrones: Kingsroad
+  // ==========================
+  gotk: "game of thrones kingsroad",
+  "game of thrones kingsroad": "game of thrones kingsroad",
+  kingsroad: "game of thrones kingsroad",
+
+  // ==========================
+  // Gang Beasts
+  // ==========================
+  gangbeasts: "gang beasts",
+  "gang beasts": "gang beasts",
+  gb: "gang beasts",
+  gangs: "gang beasts",
+
+  // ==========================
+  // Garry's Mod
+  // ==========================
+  gmod: "garry's mod",
+  garrysmod: "garry's mod",
+  "garry's mod": "garry's mod",
+  garrys: "garry's mod",
+
+  // ==========================
+  // Genshin Impact
+  // ==========================
+  genshin: "genshin impact",
+  genshinimpact: "genshin impact",
+  "genshin impact": "genshin impact",
+  gi: "genshin impact",
+
+  // ==========================
+  // GeoGuessr
+  // ==========================
+  geoguessr: "geoguessr",
+  "geo guessr": "geoguessr",
+  geoguessr: "geoguessr",
+  gg: "geoguessr",
+
+  // ==========================
+  // Ghost Recon Breakpoint
+  // ==========================
+  breakpoint: "ghost recon breakpoint",
+  "ghost recon breakpoint": "ghost recon breakpoint",
+  grb: "ghost recon breakpoint",
+  ghostrecon: "ghost recon breakpoint",
+
+  // ==========================
+  // GTA Online
+  // ==========================
+  gta: "gta online",
+  gta5: "gta online",
+  gtaonline: "gta online",
+  "gta online": "gta online",
+  gtao: "gta online",
+  gta5online: "gta online",
+  gtavonline: "gta online",
+  "grand theft auto online": "gta online",
+  "gta v online": "gta online",
+
+  // ==========================
+  // Grand RP
+  // ==========================
+  "grand rp": "grand rp",
+  "grand roleplay": "grand rp",
+  "grand role play": "grand rp",
+  grandrp: "grand rp",
+
+  // ==========================
+  // GTA RP
+  // ==========================
+  gtarp: "gta rp",
+  "gta rp": "gta rp",
+  roleplay: "gta rp",
+  gta5rp: "gta rp",
+  gtavrp: "gta rp",
+  fivem: "fivem",
+  "five m": "fivem",
+  ragemp: "rage mp",
+  "rage mp": "rage mp",
+  altv: "alt:v",
+  "alt v": "alt:v",
+  alt: "alt:v",
+
+  // ==========================
+  // Goose Goose Duck
+  // ==========================
+  goosegooseduck: "goose goose duck",
+  "goose goose duck": "goose goose duck",
+  ggd: "goose goose duck",
+
+  // ==========================
+  // Gray Zone Warfare
+  // ==========================
+  grayzone: "gray zone warfare",
+  grayzonewarfare: "gray zone warfare",
+  "gray zone warfare": "gray zone warfare",
+  gzw: "gray zone warfare",
+
+  // ==========================
+  // Grounded
+  // ==========================
+  grounded: "grounded",
+  grounded: "grounded",
+  groundedgame: "grounded",
+
+  // ==========================
+  // Guild Wars 2
+  // ==========================
+  gw2: "guild wars 2",
+  guildwars2: "guild wars 2",
+  "guild wars 2": "guild wars 2",
+  guildwars: "guild wars 2",
+
+  // ==========================
+  // Gunfire Reborn
+  // ==========================
+  gunfire: "gunfire reborn",
+  gunfirereborn: "gunfire reborn",
+  "gunfire reborn": "gunfire reborn",
+  gfr: "gunfire reborn",
+  "gun fire reborn": "gunfire reborn",
+  gunfirecoop: "gunfire reborn",
+
+  // ==========================
+  // GunZ: The Duel
+  // ==========================
+  gunz: "gunz the duel",
+  gunz: "gunz the duel",
+  "gunz the duel": "gunz the duel",
+  gunz1: "gunz the duel",
+  theduel: "gunz the duel",
+
+  // ==========================
+  // GunZ 2
+  // ==========================
+  gunz2: "gunz 2",
+  "gunz 2": "gunz 2",
+  gunzii: "gunz 2",
+
+  // ==========================
+  // Growtopia
+  // ==========================
+  growtopia: "growtopia",
+  growtopia: "growtopia",
+  gt: "growtopia",
+  grow: "growtopia",
+  growtopiagame: "growtopia",
+
+  // ==========================
+  // Guild Wars
+  // ==========================
+  gw: "guild wars",
+  "guild wars": "guild wars",
+  guildwars: "guild wars",
+  gw1: "guild wars",
+
+  // ==========================
+  // Halo Infinite
+  // ==========================
+  halo: "halo infinite",
+  haloinfinite: "halo infinite",
+  "halo infinite": "halo infinite",
+  hi: "halo infinite",
+  halomp: "halo infinite",
+
+  // ==========================
+  // Halo: The Master Chief Collection
+  // ==========================
+  mcc: "halo the master chief collection",
+  "halo mcc": "halo the master chief collection",
+  "halo the master chief collection": "halo the master chief collection",
+  halomcc: "halo the master chief collection",
+
+  // ==========================
+  // Hearthstone
+  // ==========================
+  hearthstone: "hearthstone",
+  hearthstone: "hearthstone",
+  hs: "hearthstone",
+  hearth: "hearthstone",
+
+  // ==========================
+  // Hell Let Loose
+  // ==========================
+  hll: "hell let loose",
+  "hell let loose": "hell let loose",
+  hellletloose: "hell let loose",
+  helllet: "hell let loose",
+
+  // ==========================
+  // Helldivers 2
+  // ==========================
+  helldivers2: "helldivers 2",
+  "helldivers 2": "helldivers 2",
+  hd2: "helldivers 2",
+  helldivers: "helldivers 2",
+  "helldiver 2": "helldivers 2",
+
+  // ==========================
+  // Heroes of the Storm
+  // ==========================
+  hots: "heroes of the storm",
+  "heroes of the storm": "heroes of the storm",
+  heroesstorm: "heroes of the storm",
+  heroes: "heroes of the storm",
+
+  // ==========================
+  // Honor of Kings
+  // ==========================
+  hok: "honor of kings",
+  honorofkings: "honor of kings",
+  "honor of kings": "honor of kings",
+  hokglobal: "honor of kings",
+  kings: "honor of kings",
+
+  // ==========================
+  // Hunt: Showdown 1896
+  // ==========================
+  hunt: "hunt showdown 1896",
+  huntshowdown: "hunt showdown 1896",
+  "hunt showdown": "hunt showdown 1896",
+  "hunt showdown 1896": "hunt showdown 1896",
+  hs1896: "hunt showdown 1896",
+
+  // ==========================
+  // Human: Fall Flat
+  // ==========================
+  humanfallflat: "human fall flat",
+  "human fall flat": "human fall flat",
+  hff: "human fall flat",
+  humanfall: "human fall flat",
+
+  // ==========================
+  // Hypixel
+  // ==========================
+  hypixel: "hypixel",
+  hypixel: "hypixel",
+  hyp: "hypixel",
+  hypixelserver: "hypixel",
+
+  // ==========================
+  // Hyper Scape
+  // ==========================
+  hyperscape: "hyper scape",
+  "hyper scape": "hyper scape",
+  hscape: "hyper scape",
+  hyper: "hyper scape",
+
+  // ==========================
+  // Hyper Front
+  // ==========================
+  hyperfront: "hyper front",
+  "hyper front": "hyper front",
+  hf: "hyper front",
+
+  // ==========================
+  // ICARUS
+  // ==========================
+  icarus: "icarus",
+  icarus: "icarus",
+  icarusgame: "icarus",
+  surviveicarus: "icarus",
+  icaruscoop: "icarus",
+  "icarus co-op": "icarus",
+  "icarus coop": "icarus",
+
+  // ==========================
+  // Identity V
+  // ==========================
+  identityv: "identity v",
+  "identity v": "identity v",
+  idv: "identity v",
+  identity5: "identity v",
+  "identity five": "identity v",
+  neteaseidv: "identity v",
+
+  // ==========================
+  // Infinity Nikki (Co-op)
+  // ==========================
+  infinitynikki: "infinity nikki",
+  "infinity nikki": "infinity nikki",
+  nikki: "infinity nikki",
+  innikki: "infinity nikki",
+
+  // ==========================
+  // Insurgency
+  // ==========================
+  insurgency: "insurgency sandstorm",
+  insurgency: "insurgency sandstorm",
+  sandstorm: "insurgency sandstorm",
+  isinsurgency: "insurgency sandstorm",
+  insurgencysandstorm: "insurgency sandstorm",
+  isandstorm: "insurgency sandstorm",
+
+  // ==========================
+  // Iron Order 1919
+  // ==========================
+  ironorder: "iron order 1919",
+  "iron order": "iron order 1919",
+  "iron order 1919": "iron order 1919",
+  io1919: "iron order 1919",
+
+  // ==========================
+  // Jackbox Party Pack
+  // ==========================
+  jackbox: "the jackbox party pack",
+  jackbox: "the jackbox party pack",
+  jackboxparty: "the jackbox party pack",
+  partypack: "the jackbox party pack",
+  jackboxgames: "the jackbox party pack",
+
+  // ==========================
+  // Jump Assemble
+  // ==========================
+  jumpassemble: "jump assemble",
+  "jump assemble": "jump assemble",
+  ja: "jump assemble",
+  jumpanime: "jump assemble",
+
+  // ==========================
+  // KartRider: Drift
+  // ==========================
+  kartrider: "kartrider drift",
+  kartrider: "kartrider drift",
+  kartriderdrift: "kartrider drift",
+  "kartrider drift": "kartrider drift",
+  krd: "kartrider drift",
+
+  // ==========================
+  // Killing Floor
+  // ==========================
+  kf: "killing floor 2",
+  "killing floor": "killing floor 2",
+  "killing floor 2": "killing floor 2",
+  killingfloor2: "killing floor 2",
+  kf2: "killing floor 2",
+
+  // ==========================
+  // Kingdom Guard
+  // ==========================
+  kingdomguard: "kingdom guard",
+  "kingdom guard": "kingdom guard",
+  kg: "kingdom guard",
+
+  // ==========================
+  // Knockout City
+  // ==========================
+  knockoutcity: "knockout city",
+  "knockout city": "knockout city",
+  kocity: "knockout city",
+  ko: "knockout city",
+
+  // ==========================
+  // Last Epoch
+  // ==========================
+  lastepoch: "last epoch",
+  "last epoch": "last epoch",
+  le: "last epoch",
+  epoch: "last epoch",
+
+  // ==========================
+  // Last Oasis
+  // ==========================
+  lastoasis: "last oasis",
+  "last oasis": "last oasis",
+  lo: "last oasis",
+  oasis: "last oasis",
+
+  // ==========================
+  // League of Legends
+  // ==========================
+  lol: "league of legends",
+  league: "league of legends",
+  leagueoflegends: "league of legends",
+  "league of legends": "league of legends",
+  summonersrift: "league of legends",
+  riotlol: "league of legends",
+  lolsoloq: "league of legends",
+  rankedlol: "league of legends",
+
+  // ==========================
+  // League of Legends: Wild Rift
+  // ==========================
+  wildrift: "league of legends wild rift",
+  "wild rift": "league of legends wild rift",
+  lolwr: "league of legends wild rift",
+  wr: "league of legends wild rift",
+  leaguewildrift: "league of legends wild rift",
+  "league of legends wild rift": "league of legends wild rift",
+
+  // ==========================
+  // Lethal Company
+  // ==========================
+  lethalcompany: "lethal company",
+  "lethal company": "lethal company",
+  lc: "lethal company",
+  lethal: "lethal company",
+  company: "lethal company",
+  lethalcoop: "lethal company",
+
+  // ==========================
+  // Lost Ark
+  // ==========================
+  lostark: "lost ark",
+  "lost ark": "lost ark",
+  la: "lost ark",
+  amazonlostark: "lost ark",
+  arkmmo: "lost ark",
+
+  // ==========================
+  // Lords Mobile
+  // ==========================
+  lordsmobile: "lords mobile",
+  "lords mobile": "lords mobile",
+  lm: "lords mobile",
+  lords: "lords mobile",
+  // ==========================
+  // Marvel Rivals
+  // ==========================
+  marvelrivals: "marvel rivals",
+  "marvel rivals": "marvel rivals",
+  mrivals: "marvel rivals",
+  mr: "marvel rivals",
+  marvel: "marvel rivals",
+  rivals: "marvel rivals",
+  marvelhero: "marvel rivals",
+  marvelpvp: "marvel rivals",
+
+  // ==========================
+  // Mecha BREAK
+  // ==========================
+  mechabreak: "mecha break",
+  "mecha break": "mecha break",
+  mecha: "mecha break",
+  mb: "mecha break",
+  mechab: "mecha break",
+
+  // ==========================
+  // Medal of Honor
+  // ==========================
+  medalofhonor: "medal of honor",
+  "medal of honor": "medal of honor",
+  moh: "medal of honor",
+  mohonline: "medal of honor",
+
+  // ==========================
+  // Minecraft
+  // ==========================
+  minecraft: "minecraft",
+  mc: "minecraft",
+  minecraft: "minecraft",
+  mcjava: "minecraft java edition",
+  "minecraft java": "minecraft java edition",
+  "minecraft java edition": "minecraft java edition",
+  java: "minecraft java edition",
+  mcbedrock: "minecraft bedrock edition",
+  "minecraft bedrock": "minecraft bedrock edition",
+  "minecraft bedrock edition": "minecraft bedrock edition",
+  bedrock: "minecraft bedrock edition",
+  mcpe: "minecraft bedrock edition",
+  "minecraft pe": "minecraft bedrock edition",
+  minecraftmobile: "minecraft bedrock edition",
+  hypixelmc: "hypixel",
+  mineplex: "mineplex",
+
+  // ==========================
+  // Minecraft Dungeons
+  // ==========================
+  minecraftdungeons: "minecraft dungeons",
+  "minecraft dungeons": "minecraft dungeons",
+  mcd: "minecraft dungeons",
+
+  // ==========================
+  // Mini Militia
+  // ==========================
+  minimilitia: "mini militia",
+  "mini militia": "mini militia",
+  mm: "mini militia",
+  doodlearmy2: "mini militia",
+  "doodle army 2": "mini militia",
+
+  // ==========================
+  // Mir4
+  // ==========================
+  mir4: "mir4",
+  mir4: "mir4",
+  mirfour: "mir4",
+  mir: "mir4",
+
+  // ==========================
+  // Mobile Legends: Bang Bang
+  // ==========================
+  ml: "mobile legends bang bang",
+  mlbb: "mobile legends bang bang",
+  mobilelegends: "mobile legends bang bang",
+  "mobile legends": "mobile legends bang bang",
+  "mobile legends bang bang": "mobile legends bang bang",
+  mobilelegendsbb: "mobile legends bang bang",
+  mlglobal: "mobile legends bang bang",
+  mlranked: "mobile legends bang bang",
+  mlclassic: "mobile legends bang bang",
+  mlmythic: "mobile legends bang bang",
+  mlmythicalglory: "mobile legends bang bang",
+  mlindia: "mobile legends bang bang",
+
+  // ==========================
+  // Monopoly GO!
+  // ==========================
+  monopolygo: "monopoly go",
+  "monopoly go": "monopoly go",
+  mgo: "monopoly go",
+  monopoly: "monopoly go",
+
+  // ==========================
+  // Monster Hunter Rise
+  // ==========================
+  monsterhunterrise: "monster hunter rise",
+  "monster hunter rise": "monster hunter rise",
+  mhr: "monster hunter rise",
+  rise: "monster hunter rise",
+
+  // ==========================
+  // Monster Hunter Wilds
+  // ==========================
+  monsterhunterwilds: "monster hunter wilds",
+  "monster hunter wilds": "monster hunter wilds",
+  mhwilds: "monster hunter wilds",
+  wilds: "monster hunter wilds",
+
+  // ==========================
+  // Mortal Kombat 1
+  // ==========================
+  mk1: "mortal kombat 1",
+  "mortal kombat 1": "mortal kombat 1",
+  mortalkombat1: "mortal kombat 1",
+  mk: "mortal kombat 1",
+  mortalkombat: "mortal kombat 1",
+
+  // ==========================
+  // MultiVersus
+  // ==========================
+  multiversus: "multiversus",
+  multiversus: "multiversus",
+  mv: "multiversus",
+  wbmultiversus: "multiversus",
+
+  // ==========================
+  // MU Online
+  // ==========================
+  muonline: "mu online",
+  "mu online": "mu online",
+  mu: "mu online",
+  muo: "mu online",
+
+  // ==========================
+  // My Hero Ultra Rumble
+  // ==========================
+  myheroultrarumble: "my hero ultra rumble",
+  "my hero ultra rumble": "my hero ultra rumble",
+  mhur: "my hero ultra rumble",
+  ultrarumble: "my hero ultra rumble",
+  myhero: "my hero ultra rumble",
+
+  // ==========================
+  // Naraka: Bladepoint
+  // ==========================
+  naraka: "naraka bladepoint",
+  naraka: "naraka bladepoint",
+  "naraka bladepoint": "naraka bladepoint",
+  bladepoint: "naraka bladepoint",
+  nb: "naraka bladepoint",
+
+  // ==========================
+  // Need for Speed
+  // ==========================
+  nfs: "need for speed",
+  needforspeed: "need for speed",
+  "need for speed": "need for speed",
+  nfsonline: "need for speed",
+
+  // ==========================
+  // Neverwinter
+  // ==========================
+  neverwinter: "neverwinter",
+  neverwinter: "neverwinter",
+  nw: "neverwinter",
+  neverwinteronline: "neverwinter",
+  dndonline: "neverwinter",
+
+  // ==========================
+  // New World
+  // ==========================
+  newworld: "new world",
+  "new world": "new world",
+  nwgame: "new world",
+  amazonnewworld: "new world",
+  newworldaeternum: "new world aeternum",
+  "new world aeternum": "new world aeternum",
+  nwa: "new world aeternum",
+
+  // ==========================
+  // No More Room in Hell
+  // ==========================
+  nmrih: "no more room in hell",
+  "no more room in hell": "no more room in hell",
+  nomoreroominhell: "no more room in hell",
+  nmrih1: "no more room in hell",
+
+  // ==========================
+  // No More Room in Hell 2
+  // ==========================
+  nmrih2: "no more room in hell 2",
+  "no more room in hell 2": "no more room in hell 2",
+  nomoreroominhell2: "no more room in hell 2",
+
+  // ==========================
+  // No Rest for the Wicked (Co-op)
+  // ==========================
+  nrftw: "no rest for the wicked",
+  "no rest for the wicked": "no rest for the wicked",
+  norestforthewicked: "no rest for the wicked",
+
+  // ==========================
+  // Omega Strikers
+  // ==========================
+  omegastrikers: "omega strikers",
+  "omega strikers": "omega strikers",
+  omega: "omega strikers",
+  os: "omega strikers",
+
+  // ==========================
+  // Once Human
+  // ==========================
+  oncehuman: "once human",
+  "once human": "once human",
+  oh: "once human",
+  once: "once human",
+  oncehumangame: "once human",
+  oncehumanpc: "once human",
+  oncehumansteam: "once human",
+
+  // ==========================
+  // Overcooked! 2
+  // ==========================
+  overcooked2: "overcooked 2",
+  "overcooked 2": "overcooked 2",
+  oc2: "overcooked 2",
+  overcooked: "overcooked 2",
+
+  // ==========================
+  // Overwatch 2
+  // ==========================
+  overwatch: "overwatch 2",
+  overwatch2: "overwatch 2",
+  overwatch: "overwatch 2",
+  "overwatch 2": "overwatch 2",
+  ow: "overwatch 2",
+  ow2: "overwatch 2",
+  blizzardow: "overwatch 2",
+  competitiveow: "overwatch 2",
+  quickplay: "overwatch 2",
+
+  // ==========================
+  // Paladins
+  // ==========================
+  paladins: "paladins",
+  paladins: "paladins",
+  paladin: "paladins",
+  hirezpaladins: "paladins",
+
+  // ==========================
+  // Palworld
+  // ==========================
+  palworld: "palworld",
+  palworld: "palworld",
+  pw: "palworld",
+  pal: "palworld",
+  palworldgame: "palworld",
+  palworldcoop: "palworld",
+  palworldonline: "palworld",
+
+  // ==========================
+  // Path of Exile
+  // ==========================
+  poe: "path of exile",
+  pathofexile: "path of exile",
+  "path of exile": "path of exile",
+  poe1: "path of exile",
+  poe2: "path of exile 2",
+  "path of exile 2": "path of exile 2",
+  pathofexile2: "path of exile 2",
+
+  // ==========================
+  // PAYDAY 2
+  // ==========================
+  payday2: "payday 2",
+  "payday 2": "payday 2",
+  pd2: "payday 2",
+  payday: "payday 2",
+
+  // ==========================
+  // PAYDAY 3
+  // ==========================
+  payday3: "payday 3",
+  "payday 3": "payday 3",
+  pd3: "payday 3",
+
+  // ==========================
+  // Phasmophobia
+  // ==========================
+  phasmophobia: "phasmophobia",
+  phasmophobia: "phasmophobia",
+  phasmo: "phasmophobia",
+  phasmo: "phasmophobia",
+  ghostgame: "phasmophobia",
+
+  // ==========================
+  // Pummel Party
+  // ==========================
+  pummelparty: "pummel party",
+  "pummel party": "pummel party",
+  pparty: "pummel party",
+  pp: "pummel party",
+
+  // ==========================
+  // PUBG
+  // ==========================
+  pubg: "pubg battlegrounds",
+  pubg: "pubg battlegrounds",
+  pubgpc: "pubg battlegrounds",
+  "pubg battlegrounds": "pubg battlegrounds",
+  pubgsteam: "pubg battlegrounds",
+
+  // ==========================
+  // PUBG Mobile
+  // ==========================
+  pubgm: "pubg mobile",
+  "pubg mobile": "pubg mobile",
+  pubgm: "pubg mobile",
+  pubgmobile: "pubg mobile",
+  bgmi: "battlegrounds mobile india",
+  bgmi: "battlegrounds mobile india",
+  battlegroundsmobileindia: "battlegrounds mobile india",
+
+  // ==========================
+  // Quake Champions
+  // ==========================
+  quake: "quake champions",
+  quakechampions: "quake champions",
+  "quake champions": "quake champions",
+  qc: "quake champions",
+  quakeonline: "quake champions",
+
+  // ==========================
+  // Quidditch Champions
+  // ==========================
+  quidditch: "harry potter quidditch champions",
+  "quidditch champions": "harry potter quidditch champions",
+  hpqc: "harry potter quidditch champions",
+  "harry potter quidditch champions": "harry potter quidditch champions",
+
+  // ==========================
+  // R.E.P.O.
+  // ==========================
+  repo: "r.e.p.o.",
+  "r.e.p.o.": "r.e.p.o.",
+  "repo game": "r.e.p.o.",
+  repogame: "r.e.p.o.",
+  repocoop: "r.e.p.o.",
+
+  // ==========================
+  // Raft
+  // ==========================
+  raft: "raft",
+  raft: "raft",
+  raftgame: "raft",
+  raftcoop: "raft",
+  "raft co-op": "raft",
+  "raft multiplayer": "raft",
+
+  // ==========================
+  // Rainbow Six Siege
+  // ==========================
+  r6: "rainbow six siege",
+  r6s: "rainbow six siege",
+  siege: "rainbow six siege",
+  rainbowsix: "rainbow six siege",
+  rainbowsixsiege: "rainbow six siege",
+  "rainbow six": "rainbow six siege",
+  "rainbow six siege": "rainbow six siege",
+  ubir6: "rainbow six siege",
+  rankedsiege: "rainbow six siege",
+  siegeranked: "rainbow six siege",
+
+  // ==========================
+  // Realm Royale Reforged
+  // ==========================
+  realmroyale: "realm royale reforged",
+  "realm royale": "realm royale reforged",
+  realmroyalereforged: "realm royale reforged",
+  rr: "realm royale reforged",
+
+  // ==========================
+  // Ready or Not
+  // ==========================
+  readyornot: "ready or not",
+  "ready or not": "ready or not",
+  ron: "ready or not",
+  ready: "ready or not",
+  swatgame: "ready or not",
+  readycoop: "ready or not",
+
+  // ==========================
+  // Red Dead Online
+  // ==========================
+  rdo: "red dead online",
+  reddeadonline: "red dead online",
+  "red dead online": "red dead online",
+  rdronline: "red dead online",
+  rdr2online: "red dead online",
+  "red dead redemption 2 online": "red dead online",
+
+  // ==========================
+  // Rematch
+  // ==========================
+  rematch: "rematch",
+  rematch: "rematch",
+  rematchgame: "rematch",
+  sloclaprematch: "rematch",
+
+  // ==========================
+  // Remnant II
+  // ==========================
+  remnant2: "remnant ii",
+  "remnant ii": "remnant ii",
+  "remnant 2": "remnant ii",
+  remnant: "remnant ii",
+  r2: "remnant ii",
+
+  // ==========================
+  // Ring of Elysium
+  // ==========================
+  roe: "ring of elysium",
+  ringofelysium: "ring of elysium",
+  "ring of elysium": "ring of elysium",
+
+  // ==========================
+  // Roblox
+  // ==========================
+  roblox: "roblox",
+  rbx: "roblox",
+  roblox: "roblox",
+  robloxgame: "roblox",
+  robloxpc: "roblox",
+  robloxmobile: "roblox",
+  robloxxbox: "roblox",
+  robloxps: "roblox",
+
+  // ==========================
+  // Rocket League
+  // ==========================
+  rocketleague: "rocket league",
+  "rocket league": "rocket league",
+  rl: "rocket league",
+  rocket: "rocket league",
+  rlranked: "rocket league",
+  rlcasual: "rocket league",
+  epicrl: "rocket league",
+  rocketleaguesideswipe: "rocket league sideswipe",
+  sideswipe: "rocket league sideswipe",
+
+  // ==========================
+  // Rogue Company
+  // ==========================
+  roguecompany: "rogue company",
+  "rogue company": "rogue company",
+  rogue: "rogue company",
+  rc: "rogue company",
+
+  // ==========================
+  // RuneScape
+  // ==========================
+  runescape: "runescape",
+  runescape: "runescape",
+  rs: "runescape",
+  rs3: "runescape 3",
+  "runescape 3": "runescape 3",
+  osrs: "old school runescape",
+  "old school runescape": "old school runescape",
+  oldschoolrs: "old school runescape",
+
+  // ==========================
+  // Rust
+  // ==========================
+  rust: "rust",
+  rust: "rust",
+  rustgame: "rust",
+  rustpc: "rust",
+  rustconsole: "rust console edition",
+  "rust console": "rust console edition",
+  "rust console edition": "rust console edition",
+  rustsurvival: "rust",
+  rustofficial: "rust",
+  rustmodded: "rust",
+
+  // ==========================
+  // Sea of Thieves
+  // ==========================
+  seaofthieves: "sea of thieves",
+  "sea of thieves": "sea of thieves",
+  sot: "sea of thieves",
+  sea: "sea of thieves",
+  pirategame: "sea of thieves",
+  seaofthievesgame: "sea of thieves",
+  sotguilds: "sea of thieves",
+
+  // ==========================
+  // Schedule I
+  // ==========================
+  schedule1: "schedule i",
+  "schedule i": "schedule i",
+  scheduleone: "schedule i",
+  sched1: "schedule i",
+  sched: "schedule i",
+
+  // ==========================
+  // SCP: Secret Laboratory
+  // ==========================
+  scpsl: "scp secret laboratory",
+  "scp secret laboratory": "scp secret laboratory",
+  secretlab: "scp secret laboratory",
+  secretlaboratory: "scp secret laboratory",
+  scp: "scp secret laboratory",
+  sl: "scp secret laboratory",
+
+  // ==========================
+  // Sea of Conquest
+  // ==========================
+  seaofconquest: "sea of conquest",
+  "sea of conquest": "sea of conquest",
+  soc: "sea of conquest",
+
+  // ==========================
+  // ShellShock Live
+  // ==========================
+  shellshocklive: "shellshock live",
+  "shellshock live": "shellshock live",
+  ssl: "shellshock live",
+  shellshock: "shellshock live",
+
+  // ==========================
+  // Six Days in Fallujah
+  // ==========================
+  sixdaysinfallujah: "six days in fallujah",
+  "six days in fallujah": "six days in fallujah",
+  sdif: "six days in fallujah",
+
+  // ==========================
+  // SMITE
+  // ==========================
+  smite: "smite",
+  smite: "smite",
+  smite1: "smite",
+  smiteclassic: "smite",
+
+  // ==========================
+  // SMITE 2
+  // ==========================
+  smite2: "smite 2",
+  "smite 2": "smite 2",
+  smitetwo: "smite 2",
+
+  // ==========================
+  // Soulmask
+  // ==========================
+  soulmask: "soulmask",
+  soulmask: "soulmask",
+  sm: "soulmask",
+
+  // ==========================
+  // Sons of the Forest
+  // ==========================
+  sonsoftheforest: "sons of the forest",
+  "sons of the forest": "sons of the forest",
+  sotf: "sons of the forest",
+  sonsforest: "sons of the forest",
+  sons: "sons of the forest",
+
+  // ==========================
+  // Spectre Divide
+  // ==========================
+  spectredivide: "spectre divide",
+  "spectre divide": "spectre divide",
+  spectre: "spectre divide",
+  sd: "spectre divide",
+
+  // ==========================
+  // Split Fiction
+  // ==========================
+  splitfiction: "split fiction",
+  "split fiction": "split fiction",
+  sf: "split fiction",
+
+  // ==========================
+  // Splitgate
+  // ==========================
+  splitgate: "splitgate",
+  splitgate: "splitgate",
+  sg: "splitgate",
+  splitgate2: "splitgate 2",
+  "splitgate 2": "splitgate 2",
+
+  // ==========================
+  // Squad
+  // ==========================
+  squad: "squad",
+  squad: "squad",
+  squadgame: "squad",
+  joinsquad: "squad",
+  squad44: "squad 44",
+  "squad 44": "squad 44",
 
   // ==========================
   // Squad Busters
   // ==========================
   squadbusters: "squad busters",
   "squad busters": "squad busters",
+  sb: "squad busters",
 
   // ==========================
-  // Arena Breakout Infinite
+  // Star Citizen
   // ==========================
-  "arena breakout pc": "arena breakout infinite",
+  starcitizen: "star citizen",
+  "star citizen": "star citizen",
+  sc: "star citizen",
+  robertsspaceindustries: "star citizen",
+  citizen: "star citizen",
 
   // ==========================
-  // Lost Light
+  // Star Wars: Hunters
   // ==========================
-  lostlight: "lost light",
-  "lost light": "lost light",
-
-  // ==========================
-  // Badlanders
-  // ==========================
-  badlanders: "badlanders",
+  starwarshunters: "star wars hunters",
+  "star wars hunters": "star wars hunters",
+  swh: "star wars hunters",
+  hunters: "star wars hunters",
 
   // ==========================
-  // Farlight 84
+  // State of Survival
   // ==========================
-  fl84: "farlight 84",
-
-  // ==========================
-  // T3 Arena
-  // ==========================
-  t3: "t3 arena",
-  "t3 arena": "t3 arena",
+  stateofsurvival: "state of survival",
+  "state of survival": "state of survival",
+  sos: "state of survival",
 
   // ==========================
-  // Omega Strikers
+  // Street Fighter 6
   // ==========================
-  omega: "omega strikers",
-  "omega strikers": "omega strikers",
-
-  // ==========================
-  // Zooba
-  // ==========================
-  zooba: "zooba",
+  streetfighter6: "street fighter 6",
+  "street fighter 6": "street fighter 6",
+  sf6: "street fighter 6",
+  streetfighter: "street fighter 6",
 
   // ==========================
-  // Bullet Echo
+  // Stumble Guys
   // ==========================
-  bulletecho: "bullet echo",
-  "bullet echo": "bullet echo",
-
-  // ==========================
-  // Critical Ops
-  // ==========================
-  cops: "critical ops",
-  "critical ops": "critical ops",
+  stumbleguys: "stumble guys",
+  "stumble guys": "stumble guys",
+  stumble: "stumble guys",
+  sguys: "stumble guys",
 
   // ==========================
-  // Modern Combat
+  // Super Animal Royale
   // ==========================
-  mc5: "modern combat 5",
-  "modern combat 5": "modern combat 5",
-
-  // ==========================
-  // Shadowgun Legends
-  // ==========================
-  shadowgun: "shadowgun legends",
-  "shadowgun legends": "shadowgun legends",
+  superanimalroyale: "super animal royale",
+  "super animal royale": "super animal royale",
+  sar: "super animal royale",
+  animalroyale: "super animal royale",
 
   // ==========================
-  // Roblox Experiences
+  // Supervive
   // ==========================
-  bloxfruits: "blox fruits",
-  "blox fruits": "blox fruits",
-  brookhaven: "brookhaven",
-  adoptme: "adopt me",
-  "adopt me": "adopt me",
-  jailbreak: "jailbreak",
-  doors: "doors",
-  bedwars: "bedwars",
-  arsenal: "arsenal",
-  mm2: "murder mystery 2",
-  "murder mystery 2": "murder mystery 2",
-  petsim99: "pet simulator 99",
-  "pet simulator 99": "pet simulator 99",
-  rivals: "roblox rivals",
-  "roblox rivals": "roblox rivals",
+  supervive: "supervive",
+  supervive: "supervive",
+  sv: "supervive",
+  projectloki: "supervive",
 
   // ==========================
-  // GTA RP Platforms
+  // StarCraft II
   // ==========================
-  fivem: "fivem",
-  "five m": "fivem",
-  ragemp: "ragemp",
-  "rage mp": "ragemp",
-  altv: "alt:v",
-  "alt:v": "alt:v",
-  redm: "redm",
-
-  // ==========================
-  // RP Servers
-  // ==========================
-  eclipse: "eclipse rp",
-  "eclipse rp": "eclipse rp",
-  nopixel: "nopixel",
-  "no pixel": "nopixel",
-  purplerp: "purple rp",
-  "purple rp": "purple rp",
-  lucidcity: "lucid city",
-  "lucid city": "lucid city",
+  starcraft2: "starcraft ii",
+  "starcraft ii": "starcraft ii",
+  "starcraft 2": "starcraft ii",
+  sc2: "starcraft ii",
+  starcraft: "starcraft ii",
+  blizzardsc2: "starcraft ii",
 
   // ==========================
-  // Browser Games
+  // Star Wars: The Old Republic
   // ==========================
-  agar: "agar.io",
-  "agar.io": "agar.io",
-  slither: "slither.io",
-  "slither.io": "slither.io",
-  diep: "diep.io",
-  "diep.io": "diep.io",
-  surviv: "surviv.io",
-  "surviv.io": "surviv.io",
-  krunker: "krunker",
-  shellshock: "shell shockers",
-  "shell shockers": "shell shockers",
+  swtor: "star wars the old republic",
+  "star wars the old republic": "star wars the old republic",
+  starwarstheoldrepublic: "star wars the old republic",
+  oldrepublic: "star wars the old republic",
+  tor: "star wars the old republic",
 
   // ==========================
-  // VR Games
+  // Stormgate
   // ==========================
-  gorillatag: "gorilla tag",
-  "gorilla tag": "gorilla tag",
-  pavlov: "pavlov vr",
-  "pavlov vr": "pavlov vr",
-  breachers: "breachers",
-  contractors: "contractors showdown",
-  "contractors showdown": "contractors showdown",
+  stormgate: "stormgate",
+  stormgate: "stormgate",
+  sgate: "stormgate",
+  storm: "stormgate",
 
   // ==========================
-  // PlayStation Multiplayer
+  // SYNDUALITY Echo of Ada
   // ==========================
-  gtav: "gta",
-  gtavonline: "gta",
-  returnal: "returnal",
-  sackboy: "sackboy a big adventure",
-  destructionallstars: "destruction allstars",
-  "destruction allstars": "destruction allstars",
+  synduality: "synduality echo of ada",
+  synduality: "synduality echo of ada",
+  "synduality echo of ada": "synduality echo of ada",
+  seoa: "synduality echo of ada",
 
   // ==========================
-  // Xbox Multiplayer
+  // Team Fortress 2
   // ==========================
-  gears: "gears 5",
-  "gears 5": "gears 5",
-  sea: "sea of thieves",
-
-  // ==========================
-  // Survival Craft
-  // ==========================
-  legofortnite: "lego fortnite",
-  vintagerstory: "vintage story",
-  "vintage story": "vintage story",
+  tf2: "team fortress 2",
+  teamfortress2: "team fortress 2",
+  "team fortress 2": "team fortress 2",
+  teamfortress: "team fortress 2",
+  tf: "team fortress 2",
+  valvetf2: "team fortress 2",
+  tf2classic: "team fortress 2",
 
   // ==========================
-  // Indie Multiplayer
+  // Tekken 8
   // ==========================
-  picopark2: "pico park 2",
-  "pico park 2": "pico park 2",
-  chained: "chained together",
-  "chained together": "chained together",
-  schedule1: "schedule i",
-  "schedule i": "schedule i",
-  repo: "r.e.p.o.",
-  "r.e.p.o.": "r.e.p.o.",
-  peak: "peak",
+  tekken8: "tekken 8",
+  "tekken 8": "tekken 8",
+  tekken: "tekken 8",
+  tk8: "tekken 8",
+  tekkenranked: "tekken 8",
 
   // ==========================
-  // Horror Co-op
+  // Terraria
   // ==========================
-  devour: "devour",
-  pacify: "pacify",
-  forewarned: "forewarned",
-  demonologist: "demonologist",
-  insidebackrooms: "inside the backrooms",
-  "inside the backrooms": "inside the backrooms",
+  terraria: "terraria",
+  terraria: "terraria",
+  terra: "terraria",
+  terrariagame: "terraria",
+  tmodloader: "terraria",
 
   // ==========================
-  // Final Common Aliases
+  // The Crew Motorfest
   // ==========================
-  wz: "call of duty warzone",
-  wz2: "call of duty warzone",
-  wz3: "call of duty warzone",
+  thecrewmotorfest: "the crew motorfest",
+  "the crew motorfest": "the crew motorfest",
+  motorfest: "the crew motorfest",
+  crewmotorfest: "the crew motorfest",
+  tcm: "the crew motorfest",
 
-  csgo: "counter-strike 2",
+  // ==========================
+  // The Cycle: Frontier
+  // ==========================
+  cyclefrontier: "the cycle frontier",
+  "the cycle frontier": "the cycle frontier",
+  tcf: "the cycle frontier",
+  cycle: "the cycle frontier",
 
-  ow: "overwatch 2",
+  // ==========================
+  // The Division
+  // ==========================
+  division: "the division 2",
+  thedivision: "the division 2",
+  division2: "the division 2",
+  "the division 2": "the division 2",
+  td2: "the division 2",
+  ubidivision: "the division 2",
 
-  bf: "battlefield",
+  // ==========================
+  // The Finals
+  // ==========================
+  thefinals: "the finals",
+  "the finals": "the finals",
+  finals: "the finals",
+  tfinals: "the finals",
+  embark: "the finals",
 
-  gtao: "gta",
+  // ==========================
+  // The First Descendant
+  // ==========================
+  thefirstdescendant: "the first descendant",
+  "the first descendant": "the first descendant",
+  tfd: "the first descendant",
+  firstdescendant: "the first descendant",
+  descendant: "the first descendant",
 
-  rdr: "rdo",
+  // ==========================
+  // The Lord of the Rings Online
+  // ==========================
+  lotro: "the lord of the rings online",
+  "the lord of the rings online": "the lord of the rings online",
+  lordoftheringsonline: "the lord of the rings online",
+  lotronline: "the lord of the rings online",
 
-  rdronline: "rdo",
-
-  fh4: "forza horizon",
-  fh6: "forza horizon",
-
-  ets: "euro truck simulator 2",
-
-  ats2: "american truck simulator",
-
-  rl: "rocket league",
-
-  sot: "sea of thieves",
-
-  sotf2: "sons of the forest",
-
-  db: "dead by daylight",
-
-  phasmo: "phasmophobia",
-
-  mcjava: "minecraft",
-  mcbedrock: "minecraft",
-
-  wowclassic: "world of warcraft",
-
-  gw: "guild wars 2",
-
-  bdoonline: "black desert online",
-
-  poe: "path of exile",
-  poe2: "path of exile 2",
-
-  diablo: "diablo iv",
-  d4: "diablo iv",
-
-  helldivers2: "helldivers 2",
-
+  // ==========================
+  // Throne and Liberty
+  // ==========================
+  throneandliberty: "throne and liberty",
+  "throne and liberty": "throne and liberty",
   tl: "throne and liberty",
+  tal: "throne and liberty",
+  ncsofttl: "throne and liberty",
 
-  tfdgame: "the first descendant",
+  // ==========================
+  // Tower of Fantasy
+  // ==========================
+  tof: "tower of fantasy",
+  toweroffantasy: "tower of fantasy",
+  "tower of fantasy": "tower of fantasy",
+  towerfantasy: "tower of fantasy",
 
-  zomboid: "project zomboid",
+  // ==========================
+  // Tribes 3: Rivals
+  // ==========================
+  tribes3: "tribes 3 rivals",
+  "tribes 3 rivals": "tribes 3 rivals",
+  tribes: "tribes 3 rivals",
+  t3r: "tribes 3 rivals",
 
-  vrchatgame: "vrchat",
+  // ==========================
+  // Trove
+  // ==========================
+  trove: "trove",
+  trove: "trove",
+  trovegame: "trove",
+  glyphtrove: "trove",
 
-  ffxivonline: "final fantasy xiv",
+  // ==========================
+  // UFC 5
+  // ==========================
+  ufc5: "ufc 5",
+  "ufc 5": "ufc 5",
+  ufc: "ufc 5",
+  eaufc5: "ufc 5",
 
-  elderscrollsonline: "elder scrolls online",
+  // ==========================
+  // Unturned
+  // ==========================
+  unturned: "unturned",
+  unturned: "unturned",
+  unt: "unturned",
+  unturnedgame: "unturned",
+
+  // ==========================
+  // Valorant
+  // ==========================
+  valorant: "valorant",
+  valo: "valorant",
+  val: "valorant",
+  valorant: "valorant",
+  riotvalo: "valorant",
+  riotvalorant: "valorant",
+  valorank: "valorant",
+  valcomp: "valorant",
+  valcompetitive: "valorant",
+  valpremier: "valorant",
+  premier: "valorant",
+  swiftplay: "valorant",
+  spikerush: "valorant",
+  deathmatch: "valorant",
+  tdm: "valorant",
+  escalation: "valorant",
+  unrated: "valorant",
+  competitive: "valorant",
+
+  // ==========================
+  // Vampire: The Masquerade - Bloodhunt
+  // ==========================
+  bloodhunt: "vampire the masquerade bloodhunt",
+  bloodhunt: "vampire the masquerade bloodhunt",
+  vtmbloodhunt: "vampire the masquerade bloodhunt",
+  "vampire the masquerade bloodhunt": "vampire the masquerade bloodhunt",
+  vtm: "vampire the masquerade bloodhunt",
+
+  // ==========================
+  // Veiled Experts
+  // ==========================
+  veiledexperts: "veiled experts",
+  "veiled experts": "veiled experts",
+  veiled: "veiled experts",
+  vx: "veiled experts",
+
+  // ==========================
+  // V Rising
+  // ==========================
+  vrising: "v rising",
+  "v rising": "v rising",
+  vr: "v rising",
+  vrise: "v rising",
+  vrisinggame: "v rising",
+  vrisingpvp: "v rising",
+  vrisingpve: "v rising",
+
+  // ==========================
+  // VRChat
+  // ==========================
+  vrchat: "vrchat",
+  vrchat: "vrchat",
+  vrc: "vrchat",
+  vrcgame: "vrchat",
+  virtualrealitychat: "vrchat",
+
+  // ==========================
+  // War Thunder
+  // ==========================
+  warthunder: "war thunder",
+  "war thunder": "war thunder",
+  wt: "war thunder",
+  wtgame: "war thunder",
+  gaijinwt: "war thunder",
+  wtair: "war thunder",
+  wttanks: "war thunder",
+  wtnaval: "war thunder",
+
+  // ==========================
+  // Warface
+  // ==========================
+  warface: "warface",
+  warface: "warface",
+  wf: "warface",
+  warfacegame: "warface",
+  warfaceclutch: "warface",
+
+  // ==========================
+  // Warframe
+  // ==========================
+  warframe: "warframe",
+  warframe: "warframe",
+  wframe: "warframe",
+  warframegame: "warframe",
+  tenno: "warframe",
+  originsystem: "warframe",
+  warframe1999: "warframe",
+  warframeduviri: "warframe",
+
+  // ==========================
+  // Warhammer 40,000: Darktide
+  // ==========================
+  darktide: "warhammer 40000 darktide",
+  darktide: "warhammer 40000 darktide",
+  wh40kdarktide: "warhammer 40000 darktide",
+  "warhammer 40000 darktide": "warhammer 40000 darktide",
+
+  // ==========================
+  // Wayfinder
+  // ==========================
+  wayfinder: "wayfinder",
+  wayfinder: "wayfinder",
+  wfinder: "wayfinder",
+
+  // ==========================
+  // World of Tanks
+  // ==========================
+  wot: "world of tanks",
+  worldoftanks: "world of tanks",
+  "world of tanks": "world of tanks",
+  wotpc: "world of tanks",
+  wotblitz: "world of tanks blitz",
+  "world of tanks blitz": "world of tanks blitz",
+  blitz: "world of tanks blitz",
+
+  // ==========================
+  // World of Warships
+  // ==========================
+  wows: "world of warships",
+  worldofwarships: "world of warships",
+  "world of warships": "world of warships",
+  warships: "world of warships",
+  wowslegends: "world of warships legends",
+  "world of warships legends": "world of warships legends",
+
+  // ==========================
+  // World of Warcraft
+  // ==========================
+  wow: "world of warcraft",
+  worldofwarcraft: "world of warcraft",
+  "world of warcraft": "world of warcraft",
+  wowretail: "world of warcraft",
+  wowclassic: "world of warcraft classic",
+  "world of warcraft classic": "world of warcraft classic",
+  retail: "world of warcraft",
+  azeroth: "world of warcraft",
+
+  // ==========================
+  // Worms W.M.D
+  // ==========================
+  wormswmd: "worms w.m.d",
+  "worms w.m.d": "worms w.m.d",
+  worms: "worms w.m.d",
+  wmd: "worms w.m.d",
+
+  // ==========================
+  // Wreckfest
+  // ==========================
+  wreckfest: "wreckfest",
+  wreckfest: "wreckfest",
+  wreck: "wreckfest",
+  wreckfest2: "wreckfest 2",
+  "wreckfest 2": "wreckfest 2",
+
+  // ==========================
+  // Wuthering Waves
+  // ==========================
+  wutheringwaves: "wuthering waves",
+  "wuthering waves": "wuthering waves",
+  wuwa: "wuthering waves",
+  ww: "wuthering waves",
+  kurogame: "wuthering waves",
+
+  // ==========================
+  // XDefiant
+  // ==========================
+  xdefiant: "xdefiant",
+  xdefiant: "xdefiant",
+  xd: "xdefiant",
+  ubixdefiant: "xdefiant",
+
+  // ==========================
+  // Zenith: The Last City
+  // ==========================
+  zenith: "zenith the last city",
+  zenith: "zenith the last city",
+  "zenith the last city": "zenith the last city",
+  ztlc: "zenith the last city",
+
+  // ==========================
+  // Zenless Zone Zero
+  // ==========================
+  zzz: "zenless zone zero",
+  "zenless zone zero": "zenless zone zero",
+  zenless: "zenless zone zero",
+  zenlesszonezero: "zenless zone zero",
+
+  // ==========================
+  // Zero Hour
+  // ==========================
+  zerohour: "zero hour",
+  "zero hour": "zero hour",
+  zh: "zero hour",
+
+  // ==========================
+  // Zero Build (Fortnite)
+  // ==========================
+  zerobuild: "fortnite",
+  "zero build": "fortnite",
+  fnzb: "fortnite",
+
+  // ==========================
+  // Zombie Army 4
+  // ==========================
+  zombiearmy4: "zombie army 4 dead war",
+  "zombie army 4": "zombie army 4 dead war",
+  za4: "zombie army 4 dead war",
+  deadwar: "zombie army 4 dead war",
+
+  // ==========================
+  // Zombie Panic! Source
+  // ==========================
+  zps: "zombie panic source",
+  "zombie panic source": "zombie panic source",
+  zombiepanic: "zombie panic source",
+
+  // ==========================
+  // ZooMafia
+  // ==========================
+  zoomafia: "zoomafia",
+  zoomafia: "zoomafia",
+
+  // ==========================
+  // Zula
+  // ==========================
+  zula: "zula",
+  zula: "zula",
+
+  // ==========================
+  // ZEPETO
+  // ==========================
+  zepeto: "zepeto",
+  zepeto: "zepeto",
 };

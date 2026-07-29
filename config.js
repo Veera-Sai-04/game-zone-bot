@@ -11,6 +11,9 @@ module.exports = {
 
   serverName: "GAME ZONE",
 
+  webMonitor: true,
+  expressPort: process.env.PORT || 3000,
+
   // ============================================
   // CHANNELS
   // ============================================
